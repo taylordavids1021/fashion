@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro");
+button {
+  margin-left: 55rem; }
+
+li {
+  display: inline;
+  text-decoration: none; }
+
+ul {
+  text-align: center; }
+
+h1 {
+  text-align: center; }
+
+.banner-image {
+  width: 118.75rem;
+  height: 59.0625rem;
+  background-color: #666666;
+  background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/kid1.jpg);
+  margin: 0;
+  text-align: center; }
+
+.eng,
+.zar {
+  width: 0.8125rem;
+  height: 0.5625rem;
+  font-family: SourceSansPro;
+  font-size: 0.75rem;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999;
+  text-transform: uppercase; }
+
+.bg {
+  width: 118.75rem;
+  height: 3.3125rem;
+  background-color: #2d2827; }
+
+.free-shipping-for-standard-order-over-r100 {
+  width: 21.8125rem;
+  height: 0.5625rem;
+  font-family: SourceSansPro;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: 0.15rem;
+  text-align: left;
+  color: #999999;
+  text-transform: uppercase; }
+
+.fab,
+.fa-angle-down,
+.fa {
+  width: 6.9375rem;
+  height: 0.9375rem;
+  font-family: FontAwesome;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
+
+.fas,
+.fa {
+  width: 1.375rem;
+  height: 1.4375rem;
+  font-family: Linearicons-Free;
+  font-size: 1.375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.0688rem;
+  text-align: left;
+  color: #ffffff; }
+
+.home,
+.shop {
+  width: 2.25rem;
+  height: 0.6875rem;
+  font-family: Dosis;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.about {
+  width: 2.75rem;
+  height: 0.6875rem;
+  font-family: Dosis;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.nateb {
+  width: 7.3125rem;
+  height: 1.3125rem;
+  font-family: Dosis;
+  font-size: 1.875rem;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.0938rem;
+  text-align: left;
+  color: #fffefe;
+  text-transform: uppercase; }
+
+.blog {
+  width: 2rem;
+  height: 0.6875rem;
+  font-family: Dosis;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.contact,
+.lookbook {
+  width: 4.125rem;
+  height: 0.6875rem;
+  font-family: Dosis;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.fa-shopping-cart {
+  width: 1.3125rem;
+  height: 1.125rem;
+  font-family: FontAwesome;
+  font-size: 1.375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-align: left;
+  color: #ffffff; }
+
+.explore-kids-fashion {
+  width: 37.3125rem;
+  height: 2.375rem;
+  font-family: Dosis;
+  font-size: 3.125rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.lorem {
+  width: 57.75rem;
+  height: 2.4375rem;
+  font-family: SourceSansPro;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e6e6e6; }
+
+.text-holder {
+  width: 9.375rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  background-color: #a88d7b; }
+
+.look-book {
+  width: 5.4375rem;
+  height: 0.625rem;
+  font-family: SourceSansPro;
+  font-size: 0.9375rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.3;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 1.4rem; }
+
+#banner-arrow {
+  width: 29px;
+  height: 16px;
+  font-family: Linearicons-Free;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */

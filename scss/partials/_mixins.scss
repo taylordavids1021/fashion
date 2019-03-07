@@ -1,0 +1,40 @@
+// *************** mixins ********************** //
+
+@mixin bg {
+    width: 0.8125rem;
+    height: 0.5625rem;
+    font-family: SourceSansPro;
+    font-size: 0.75rem;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+    text-transform: uppercase;  
+}
+
+@mixin icon-color {
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    text-align: left;
+    color: #ffffff;
+}
+
+@mixin icon {
+    width: 6.9375rem;
+    height: 0.9375rem;
+    font-family: FontAwesome;
+    font-size: 0.9375rem;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+}
