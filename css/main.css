@@ -1,16 +1,58 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro");
 button {
-  margin-left: 55rem; }
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #a88d7b; }
 
 li {
   display: inline;
-  text-decoration: none; }
+  text-decoration: none;
+  width: 13px;
+  height: 9px;
+  font-family: SourceSansPro;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #999999; }
 
 ul {
   text-align: center; }
 
-h1 {
+main {
+  width: 118.75rem;
+  height: 44.0625rem;
+  background-color: #ffffff; }
+
+section {
+  width: 118.75rem;
+  height: 34.5rem;
+  opacity: 0.9;
+  background-color: #666666;
   text-align: center; }
+  section p {
+    font-family: SourceSansPro;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    color: #ffffff; }
+
+footer {
+  font-family: SourceSansPro;
+  font-size: 14px;
+  padding-top: 2rem;
+  line-height: 1.71;
+  text-align: center;
+  color: #666666; }
+
+hr {
+  width: 5rem;
+  height: 0.125rem;
+  background-color: #a88d7b; }
 
 .banner-image {
   width: 118.75rem;
@@ -20,212 +62,227 @@ h1 {
   margin: 0;
   text-align: center; }
 
-.eng,
-.zar {
-  width: 0.8125rem;
-  height: 0.5625rem;
-  font-family: SourceSansPro;
-  font-size: 0.75rem;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #999999;
+.banner-text {
+  width: 1900px;
+  height: 53px;
+  background-color: #2d2827;
   text-transform: uppercase; }
-
-.bg {
-  width: 118.75rem;
-  height: 3.3125rem;
-  background-color: #2d2827; }
-
-.free-shipping-for-standard-order-over-r100 {
-  width: 21.8125rem;
-  height: 0.5625rem;
-  font-family: SourceSansPro;
-  font-size: 0.75rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.83;
-  letter-spacing: 0.15rem;
-  text-align: left;
-  color: #999999;
-  text-transform: uppercase; }
-
-.fab,
-.fa-angle-down,
-.fa {
-  width: 6.9375rem;
-  height: 0.9375rem;
-  font-family: FontAwesome;
-  font-size: 0.9375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #999999; }
 
 .fas,
 .fa {
-  width: 1.375rem;
-  height: 1.4375rem;
-  font-family: Linearicons-Free;
-  font-size: 1.375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.0688rem;
-  text-align: left;
-  color: #ffffff; }
+  font-size: 12px;
+  text-align: center;
+  color: #999999; }
 
-.home,
-.shop {
-  width: 2.25rem;
-  height: 0.6875rem;
-  font-family: Dosis;
-  font-size: 0.9375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.05rem;
-  text-align: left;
-  color: #ffffff;
-  text-transform: uppercase; }
+.nav-grid {
+  margin-top: 5rem; }
 
-.about {
-  width: 2.75rem;
-  height: 0.6875rem;
+.nav-grid li,
+.fas,
+.fa {
   font-family: Dosis;
-  font-size: 0.9375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.05rem;
-  text-align: left;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  text-align: center;
   color: #ffffff;
   text-transform: uppercase; }
 
 .nateb {
-  width: 7.3125rem;
-  height: 1.3125rem;
+  width: 117px;
+  height: 21px;
   font-family: Dosis;
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.0938rem;
-  text-align: left;
-  color: #fffefe;
-  text-transform: uppercase; }
+  letter-spacing: 1.5px;
+  color: #fffefe; }
 
-.blog {
-  width: 2rem;
-  height: 0.6875rem;
-  font-family: Dosis;
-  font-size: 0.9375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.1px;
-  text-align: left;
-  color: #ffffff;
-  text-transform: uppercase; }
+.title-kids-fashion {
+  margin-top: 15rem; }
 
-.contact,
-.lookbook {
-  width: 4.125rem;
-  height: 0.6875rem;
-  font-family: Dosis;
-  font-size: 0.9375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.05rem;
-  text-align: left;
-  color: #ffffff;
-  text-transform: uppercase; }
-
-.fa-shopping-cart {
-  width: 1.3125rem;
-  height: 1.125rem;
-  font-family: FontAwesome;
-  font-size: 1.375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.1px;
-  text-align: left;
+.arrow-down {
+  margin-top: 15rem;
+  font-family: Linearicons-Free;
+  font-size: 40px;
+  line-height: 1.6;
+  text-align: center;
   color: #ffffff; }
 
 .explore-kids-fashion {
-  width: 37.3125rem;
-  height: 2.375rem;
   font-family: Dosis;
-  font-size: 3.125rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
+  font-size: 50px;
   line-height: 0.96;
-  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff; }
+
+.lorem {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  line-height: 1.67;
+  text-align: center;
+  color: #e6e6e6; }
+
+button p {
+  font-family: SourceSansPro;
+  font-size: 10px;
+  line-height: 3.2;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+.image-product-holder {
+  width: 370px;
+  height: 360px;
+  background-color: #666666; }
+
+.featured-product {
+  font-family: SourceSansPro;
+  font-size: 36px;
+  line-height: 1.33;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase; }
+
+.featured-product-background {
+  width: 1900px;
+  height: 704px;
+  background-color: var(--white); }
+
+.new-collection-image {
+  width: 570px;
+  height: 373px;
+  background-color: #666666;
+  text-align: center; }
+
+.new-collection {
+  font-family: SourceSansPro;
+  font-size: 36px;
+  line-height: 1.33;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase; }
+
+.good-stuff {
+  font-family: Dosis;
+  font-size: 48px;
+  line-height: 0.5;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase; }
 
-.lorem {
-  width: 57.75rem;
-  height: 2.4375rem;
+.blog-text {
   font-family: SourceSansPro;
-  font-size: 0.9375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
+  font-size: 36px;
+  line-height: 1.33;
   text-align: center;
-  color: #e6e6e6; }
+  color: #333333;
+  text-transform: uppercase; }
 
-.text-holder {
-  width: 9.375rem;
-  height: 2.5rem;
-  border-radius: 1.25rem;
-  background-color: #a88d7b; }
+.blog-image {
+  width: 585px;
+  height: 405px;
+  background-color: #666666; }
 
-.look-book {
-  width: 5.4375rem;
-  height: 0.625rem;
-  font-family: SourceSansPro;
-  font-size: 0.9375rem;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.3;
-  letter-spacing: 1.5px;
-  text-align: center;
-  color: #ffffff;
-  margin-left: 1.4rem; }
+.details {
+  width: 1900px;
+  height: 425px;
+  padding: 0 5rem;
+  background-color: #2d2827; }
 
-#banner-arrow {
-  width: 29px;
-  height: 16px;
-  font-family: Linearicons-Free;
+.name {
+  font-family: Dosis;
   font-size: 30px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #e5e5e5;
+  text-transform: uppercase; }
+
+.details p {
+  font-family: SourceSansPro;
+  font-size: 15px;
   line-height: 1.6;
-  letter-spacing: normal;
-  text-align: center;
-  color: #ffffff; }
+  text-align: left;
+  color: #999999; }
+
+.text {
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+  text-align: left;
+  color: #e5e5e5;
+  text-transform: uppercase; }
+
+.footer {
+  width: 1900px;
+  height: 85px;
+  background-color: #d7d7d7; }
+
+.banner-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.image-product-container {
+  display: grid;
+  padding: 2rem 10rem;
+  grid-template-columns: repeat(3, 1fr); }
+
+.collection-image-grid {
+  display: grid;
+  padding: 2rem 20rem;
+  grid-template-columns: repeat(2, 1fr); }
+  .collection-image-grid p {
+    font-family: SourceSansPro;
+    font-size: 25px;
+    line-height: 1.92;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: #a88d7b;
+    text-transform: uppercase; }
+
+.goodstuff-grid {
+  display: grid;
+  padding: 10rem 0 0 10rem;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1900px;
+  height: 552px;
+  opacity: 0.9; }
+
+.blog-grid {
+  display: grid;
+  padding: 0 15rem;
+  margin: 3rem;
+  grid-template-columns: repeat(2, 1fr); }
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+.details {
+  padding: 1rem; }
+
+.insta div {
+  margin: 1rem; }
+
+.box,
+.box2 {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

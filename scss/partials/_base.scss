@@ -3,10 +3,51 @@
 li {
     display: inline;
     text-decoration: none;
+    width: 13px;
+    height: 9px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
 }
 ul {
     text-align: center;
 }
-h1 {
+main {
+    width: 118.75rem;
+    height: 44.0625rem;
+    background-color: #ffffff;
+}
+section {
+    width: 118.75rem;
+    height: 34.5rem;
+    opacity: 0.9;
+    background-color: #666666;
     text-align: center;
+
+        p{
+            font-family: SourceSansPro;
+            font-size: 15px;
+            line-height: 1.6;
+            text-align: center;
+            color: #ffffff;
+        }
+}
+footer {
+    font-family: SourceSansPro;
+    font-size: 14px;
+    padding-top: 2rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #666666;
+}
+hr {
+    width: 5rem;
+    height: 0.125rem;
+    background-color: #a88d7b;
 }

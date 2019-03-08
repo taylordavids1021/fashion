@@ -1,2 +1,73 @@
 // ****************** layouts ************ //
+.banner-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.nav-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+// product grids
+.image-product-container {
+    display: grid;
+    padding: 2rem 10rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+// collect grid
+.collection-image-grid {
+    display: grid;
+    padding: 2rem 20rem;
+    grid-template-columns: repeat(2, 1fr);
 
+        p {
+            font-family: SourceSansPro;
+            font-size: 25px;
+            line-height: 1.92;
+            letter-spacing: 2.5px;
+            text-align: center;
+            color: #a88d7b;
+            text-transform: uppercase;
+        }
+}
+// good stuff grid
+.goodstuff-grid {
+    display: grid;
+    padding: 10rem 0 0 10rem;
+    grid-template-columns: repeat(2,1fr);
+
+    width: 1900px;
+    height: 552px;
+    opacity: 0.9;
+}
+// blog grid
+.blog-grid {
+    display: grid;
+    padding: 0 15rem;
+    margin: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+// details 
+.details {
+    padding: 1rem;
+}
+.insta div {
+    margin : 1rem;
+}
+.box,
+.box2 {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+}
