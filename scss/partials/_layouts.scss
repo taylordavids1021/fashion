@@ -106,3 +106,20 @@
     grid-template-columns: repeat(4, 6rem);
     grid-row-gap: 1rem;
 }
+// typography
+
+.heading-grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+}
+.two-third {
+    grid-column: 2 span;
+}
+
+// blog grid
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}

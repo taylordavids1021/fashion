@@ -377,6 +377,55 @@ h4 {
   text-transform: uppercase;
   color: #333333; }
 
+.typography-image {
+  width: 1920px;
+  height: 335px;
+  background-color: #666666; }
+  .typography-image h1 {
+    font-family: SourceSansPro;
+    font-size: 48px;
+    line-height: 1.25;
+    letter-spacing: 4.8px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase; }
+
+.title,
+#title {
+  font-family: SourceSansPro;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 2.4px;
+  color: #333333;
+  text-transform: uppercase; }
+
+.heading-grid {
+  width: 1900px; }
+
+.blog-image {
+  width: 1900px;
+  height: 445px;
+  background-color: #666666; }
+  .blog-image h1 {
+    font-family: SourceSansPro;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase; }
+
+.blog-images {
+  width: 370px;
+  height: 225px;
+  background-color: #666666; }
+
+.blog-background {
+  width: 1900px;
+  height: 928px;
+  background-color: #ffffff; }
+
 .banner-grid,
 .about-grid {
   display: grid;
@@ -467,5 +516,18 @@ h4 {
   display: grid;
   grid-template-columns: repeat(4, 6rem);
   grid-row-gap: 1rem; }
+
+.heading-grid {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0; }
+
+.two-third {
+  grid-column: 2 span; }
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
 
 /*# sourceMappingURL=main.css.map */

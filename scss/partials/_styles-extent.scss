@@ -330,3 +330,61 @@
   text-transform: uppercase;
   color: #333333;
 }
+// typography styles
+.typography-image {
+  // background-image: url();
+  width: 1920px;
+  height: 335px;
+  background-color: #666666;
+
+    h1 {
+      font-family: SourceSansPro;
+      font-size: 48px;
+      line-height: 1.25;
+      letter-spacing: 4.8px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+}
+.title,
+#title {
+  font-family: SourceSansPro;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 2.4px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.heading-grid {
+  width: 1900px;
+  // height: 2057px;
+}
+
+// blog page
+.blog-image {
+  width: 1900px;
+  height: 445px;
+  background-color: #666666;
+
+    h1 {
+      font-family: SourceSansPro;
+      font-size: 50px;
+      line-height: 1.2;
+      letter-spacing: 5px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+}
+.blog-images{
+  width: 370px;
+  height: 225px;
+  background-color: #666666;
+}
+.blog-background {
+  width: 1900px;
+  height: 928px;
+  background-color: #ffffff;
+}

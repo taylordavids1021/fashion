@@ -56,6 +56,8 @@ Technologies and Tools Used:
 - Navbar
 - Who are we
 - Meet our team
+- Typography layout
+- Blog layout
 
 ## Contributors
 
