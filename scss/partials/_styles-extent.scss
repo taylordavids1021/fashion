@@ -13,6 +13,7 @@
   background-color: #2d2827;
   text-transform: uppercase;
 }
+.banner-grid
 .fas, 
 .fa {
   font-size: 12px;
@@ -20,8 +21,10 @@
   color: #999999;
 }
 .nav-grid {
-  margin-top: 5rem;
+  margin-top: 3rem;
+  word-spacing: 2rem;
 }
+
 .nav-grid li,
 .fas,
 .fa {
@@ -32,9 +35,7 @@
   color: #ffffff;
   text-transform: uppercase;
 }
-.nateb {
-  width: 117px;
-  height: 21px;
+.company {
   font-family: Dosis;
   font-size: 30px;
   font-weight: 600;
@@ -67,15 +68,14 @@
   text-align: center;
   color: #e6e6e6;
 }
-button p {
-    font-family: SourceSansPro;
-    font-size: 10px;
-    line-height: 3.2;
-    letter-spacing: 1.5px;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+.look-book {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: auto;
 }
 // featured product images 
 .image-product-holder {
@@ -120,6 +120,16 @@ button p {
   color: #ffffff;
   text-transform: uppercase;
 }
+.button-text{
+  width: 150px;
+  height: 40px;
+  background-color: #a88d7b;
+  border-radius: 0;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
 // blog //
 .blog-text {
   font-family: SourceSansPro;
@@ -135,18 +145,21 @@ button p {
   background-color: #666666;
 }
 .details {
-  width: 1900px;
-  height: 425px;
-  padding: 0 5rem;
   background-color: #2d2827;
+
+    .fas,
+    .fa {
+      margin-right: 0.7rem;
+    }
 }
-.-details-name {
+.details-name {
   font-family: Dosis;
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 1.5px;
   text-align: left;
   color: #e5e5e5;
+  word-spacing: 0.2rem;
   text-transform: uppercase;
 }
 .details p{
@@ -165,8 +178,112 @@ button p {
   color: #e5e5e5;
   text-transform: uppercase;
 }
+// details 
+.image-insta {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
 .footer {
   width: 1900px;
   height: 85px;
   background-color: #d7d7d7;
+}
+// about page
+.about-grid {
+  width: 1900px;
+  height: 53px;
+  background-color: #eeeeee;
+}
+.company-about{
+  font-family: Dosis;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.nav-grid-about li,
+.fas,
+.fa {
+  font-family: Dosis;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #666666;
+  
+  height: 93px;
+  background-color: #ffffff;
+}
+.nav-about {
+  word-spacing: 1rem;
+}
+.home-about-us {
+  width: 1900px;
+  height: 445px;
+  background-color: #666666;
+
+    a {
+      text-align: center;
+    }
+}
+.about-us-heading {
+    font-family: SourceSansPro;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+.home-about-us .text-style-about {
+  color: #ffffff;
+  
+}
+.home-about-us .text-style-home {
+  color: #a8a8a8;
+
+}
+// who are we
+.background-who-are-we {
+  width: 1900px;
+  height: 548px;
+  background-color: #ffffff;
+}
+.who-are-we-image{
+  width: 600px;
+  height: 490px;
+  background-color: #666666;
+}
+.who-are-we-text p {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666666;
+  padding:0 10rem;
+}
+.who-are-we-text h2 {
+  font-family: SourceSansPro;
+  font-size: 36px;
+  line-height: 0.67;
+  text-align: center;
+  color: #333333;
+}
+.meet-our-team-background {
+  width: 1920px;
+  height: 721px;
+  background-color: #ffffff;
+}
+.meet-our-team {
+  font-family: SourceSansPro;
+  font-size: 36px;
+  line-height: 1.33;
+  text-align: center;
+  color: #333333;
+}
+.meet-our-team-image {
+  width: 270px;
+  height: 305px;
+  background-color: #666666;
 }

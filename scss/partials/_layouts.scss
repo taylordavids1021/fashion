@@ -1,11 +1,48 @@
 // ****************** layouts ************ //
-.banner-grid {
+.banner-grid,
+.about-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .nav-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+}
+.nav-grid-about {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    a {
+        font-family: Dosis;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+        color: #666666;
+        text-transform: uppercase;
+    }
+}
+.nav-about {
+    grid-column: 2 span;
+}
+.home-about-us {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+// about page
+.background-who-are-we {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem 8rem;
+    text-align: center;
+
+    h2 {
+        text-transform: uppercase;
+    }
+}
+.meet-our-team-background {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 // product grids
 .image-product-container {
@@ -45,25 +82,19 @@
     padding: 0 15rem;
     margin: 3rem;
     grid-template-columns: repeat(2, 1fr);
+
+    .read-more{
+        text-transform: uppercase;
+    }
 }
 .details {
+    text-align: center;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, auto);
+    padding: 6rem;
 }
 .instagram-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-// details 
-.details {
-    padding: 1rem;
-}
-.insta div {
-    margin : 1rem;
-}
-.image-insta,
-.image-insta2 {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
+    grid-template-columns: repeat(4, 6rem);
+    grid-row-gap: 1rem;
 }

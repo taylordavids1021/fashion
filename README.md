@@ -47,6 +47,15 @@ Technologies and Tools Used:
 - Base folders added
 - Readme Created
 - Live Link Created
+- Layout grids for each section
+
+2019-03-12:
+- Downloaded images
+- Added images into grid
+- About structure
+- Navbar
+- Who are we
+- Meet our team
 
 ## Contributors
 
