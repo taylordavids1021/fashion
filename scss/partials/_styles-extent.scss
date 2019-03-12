@@ -81,7 +81,7 @@ button p {
 .image-product-holder {
   width: 370px;
   height: 360px;
-  background-color: #666666;
+  object-fit: cover;
 }
 .featured-product {
   font-family: SourceSansPro;
@@ -100,8 +100,8 @@ button p {
 .new-collection-image {
   width: 570px;
   height: 373px;
-  background-color: #666666;
   text-align: center;
+  object-fit: cover;
 }
 .new-collection {
   font-family: SourceSansPro;
@@ -140,7 +140,7 @@ button p {
   padding: 0 5rem;
   background-color: #2d2827;
 }
-.name {
+.-details-name {
   font-family: Dosis;
   font-size: 30px;
   font-weight: 600;
@@ -156,7 +156,7 @@ button p {
   text-align: left;
   color: #999999;
 }
-.text {
+.details-text {
   font-family: SourceSansPro;
   font-size: 18px;
   font-weight: bold;
