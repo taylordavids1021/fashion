@@ -42,8 +42,16 @@
 }
 .meet-our-team-background {
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(4, 1fr);
 }
+.what-we-do{
+    text-align: center;
+    display: grid;
+    margin-left: 15rem;
+    grid-template-columns: repeat(2, 40rem);
+}
+
 // product grids
 .image-product-container {
     display: grid;

@@ -258,9 +258,7 @@ h4 {
   color: #000000;
   text-transform: uppercase; }
 
-.nav-grid-about li,
-.fas,
-.fa {
+.nav-grid-about li {
   font-family: Dosis;
   font-size: 16px;
   font-weight: 600;
@@ -336,6 +334,49 @@ h4 {
   height: 305px;
   background-color: #666666; }
 
+.member {
+  font-family: SourceSansPro;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #333333;
+  text-align: center; }
+
+.position {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  text-align: center;
+  color: #999999; }
+
+.social-m-icons {
+  font-size: 15px;
+  text-align: center;
+  color: #555555; }
+
+.what-we-do-image {
+  width: 600px;
+  height: 490px;
+  background-color: #666666; }
+
+.what-we-do {
+  width: 1900px;
+  height: 590px;
+  background-color: #ffffff; }
+  .what-we-do p {
+    font-family: SourceSansPro;
+    font-size: 15px;
+    line-height: 1.67;
+    text-align: left;
+    color: #666666; }
+
+.what-we-do-title {
+  font-family: SourceSansPro;
+  font-size: 36px;
+  line-height: 0.67;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333; }
+
 .banner-grid,
 .about-grid {
   display: grid;
@@ -373,7 +414,14 @@ h4 {
 
 .meet-our-team-background {
   display: grid;
+  text-align: center;
   grid-template-columns: repeat(4, 1fr); }
+
+.what-we-do {
+  text-align: center;
+  display: grid;
+  margin-left: 15rem;
+  grid-template-columns: repeat(2, 40rem); }
 
 .image-product-container {
   display: grid;
