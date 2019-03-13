@@ -60,7 +60,9 @@ Technologies and Tools Used:
 - Blog layout
 
 2019-03-13
--
+- blog page images
+- look book layout
+- inserted images for look book
 
 
 ## Contributors

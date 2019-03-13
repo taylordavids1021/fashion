@@ -129,3 +129,12 @@
     text-align: center;
     grid-template-columns: repeat(2,1fr);
 }
+// look book grid
+.look-book-grid {
+    display: grid;
+    width: 100%;
+    grid-gap: 0.5rem;
+    background-size: cover;
+    margin-block-end: 0.2rem;
+    grid-template-columns: repeat(3, 1fr);
+}

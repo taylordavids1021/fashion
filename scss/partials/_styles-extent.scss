@@ -245,7 +245,7 @@
 .who-are-we-image{
   width: 600px;
   height: 490px;
-  background-color: #666666;
+  object-fit: cover;
 }
 .who-are-we-text p {
   font-family: SourceSansPro;
@@ -302,7 +302,7 @@
 .what-we-do-image{
   width: 600px;
   height: 490px;
-  background-color: #666666;
+  object-fit: cover;
 }
 .what-we-do {
   width: 1900px;
@@ -379,6 +379,10 @@
   height: 225px;
   object-fit: cover;
 }
+.look-book-image{
+  background:linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/mpic16.jpg);
+  text-align: center;
+}
 .blog-background {
   width: 1900px;
   height: 928px;
@@ -410,4 +414,14 @@
   font-size: 15px;
   font-weight: 600;
   color: #706259;
+}
+// look book
+.look-book-images{
+  width: 40rem;
+  height: 30rem;
+  transition: 1s ease-in;
+}
+.look-book-images:hover {
+  transition: 1s ease-in-out;
+
 }
