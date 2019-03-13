@@ -198,7 +198,7 @@ h4 {
   color: #333333;
   text-transform: uppercase; }
 
-.blog-image {
+.blog-images {
   width: 585px;
   height: 405px;
   background-color: #666666; }
@@ -273,23 +273,22 @@ h4 {
 .home-about-us {
   width: 1900px;
   height: 445px;
-  background-color: #666666; }
-  .home-about-us a {
-    text-align: center; }
+  background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/18368.jpg);
+  background-size: cover;
+  text-align: center; }
 
 .about-us-heading {
   font-family: SourceSansPro;
   font-size: 50px;
-  line-height: 1.2;
   letter-spacing: 5px;
   text-align: center;
   color: #ffffff; }
 
-.home-about-us .text-style-about {
-  color: #ffffff; }
-
-.home-about-us .text-style-home {
+.text-style-about {
   color: #a8a8a8; }
+
+.text-style-home {
+  color: #ffffff; }
 
 .background-who-are-we {
   width: 1900px;
@@ -406,25 +405,55 @@ h4 {
 .blog-image {
   width: 1900px;
   height: 445px;
-  background-color: #666666; }
-  .blog-image h1 {
-    font-family: SourceSansPro;
-    font-size: 50px;
-    line-height: 1.2;
-    letter-spacing: 5px;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase; }
+  background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(/images/insta7.jpg);
+  text-align: center; }
 
-.blog-images {
+.home-blog-us {
+  padding: 10rem 0; }
+
+.blog-title {
+  font-family: SourceSansPro;
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.blogs-images {
   width: 370px;
   height: 225px;
-  background-color: #666666; }
+  object-fit: cover; }
 
 .blog-background {
   width: 1900px;
   height: 928px;
   background-color: #ffffff; }
+
+.blog-product {
+  font-family: SourceSansPro;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333; }
+
+.blog-date {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  color: #999999; }
+
+.blog-layer {
+  width: 380px;
+  margin: 0;
+  background-color: #ffffff; }
+
+.blog-info {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  color: #666666; }
+
+.blog-read-more {
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: 600;
+  color: #706259; }
 
 .banner-grid,
 .about-grid {
@@ -526,8 +555,14 @@ h4 {
 .two-third {
   grid-column: 2 span; }
 
-.blog-grid {
+.blogs-grid {
   display: grid;
+  padding: 0 20rem;
   grid-template-columns: repeat(3, 1fr); }
+
+.blog-share-grid {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr); }
 
 /*# sourceMappingURL=main.css.map */

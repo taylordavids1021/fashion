@@ -59,6 +59,10 @@ Technologies and Tools Used:
 - Typography layout
 - Blog layout
 
+2019-03-13
+-
+
+
 ## Contributors
 
 Designed by Taylor Davids - © 2019

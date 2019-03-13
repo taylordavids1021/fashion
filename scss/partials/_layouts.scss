@@ -119,7 +119,13 @@
 }
 
 // blog grid
-.blog-grid {
+.blogs-grid {
     display: grid;
+    padding: 0 20rem;
     grid-template-columns: repeat(3,1fr)
+}
+.blog-share-grid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2,1fr);
 }
