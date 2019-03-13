@@ -39,7 +39,10 @@ section {
   height: 34.5rem;
   opacity: 0.9;
   background-color: #666666;
-  text-align: center; }
+  text-align: center;
+  background-attachment: fixed;
+  background-image: url(../images/blog.jpg);
+  background-size: cover; }
   section p {
     font-family: SourceSansPro;
     font-size: 15px;
@@ -331,7 +334,7 @@ h4 {
 .meet-our-team-image {
   width: 270px;
   height: 305px;
-  background-color: #666666; }
+  object-fit: cover; }
 
 .member {
   font-family: SourceSansPro;
@@ -463,9 +466,6 @@ h4 {
   width: 40rem;
   height: 30rem;
   transition: 1s ease-in; }
-
-.look-book-images:hover {
-  transition: 1s ease-in-out; }
 
 .banner-grid,
 .about-grid {
