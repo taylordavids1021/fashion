@@ -54,7 +54,7 @@
 // about page
 .background-who-are-we {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     padding: 5rem 8rem;
     text-align: center;
 
@@ -64,32 +64,36 @@
 }
 .meet-our-team-background {
     display: grid;
-    text-align: center;
-    grid-template-columns: repeat(4, 1fr);
+    grid-gap:0;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(4, auto);
 }
 .what-we-do{
-    text-align: center;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 1rem;
     display: grid;
-    margin-left: 15rem;
-    grid-template-columns: repeat(2, 40rem);
+    margin: auto;
+    grid-template-columns: repeat(2, auto);
 }
 
 // product grids
 .image-product-container {
     display: grid;
-    // padding: 2rem 10rem;
-    margin: auto;
-    grid-template-columns: repeat(3, 1fr);
-    width: 71.375rem;
-    
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    justify-items: center;
 }
 // collect grid
 .collection-image-grid {
     display: grid;
     // padding: 2rem 20rem;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
-    width: 71.375rem;
+    // grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, auto);
+    // width: 71.375rem;
     margin: auto;
         p {
             font-family: SourceSansPro;
@@ -164,4 +168,29 @@
     background-size: cover;
     margin-block-end: 0.2rem;
     grid-template-columns: repeat(3, 1fr);
+}
+// form
+// .contact-background {
+//     width: 1900px;
+//     height: 1841px;
+// }
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    // margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+.box {
+    width: 390px;
+    height: 200px;
+    border: solid 1px #e6e6e6;
+    background-color: #f0f0f0;
+}
+form {
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
 }
