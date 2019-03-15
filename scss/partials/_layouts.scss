@@ -29,6 +29,28 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+.every-day-living {
+    font-family: SourceSansPro;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333333;
+}
+.every-day-living-date {
+    font-family: SourceSansPro;
+    font-size: 15px;
+    color: #999999;
+}
+.every-day-living-p {
+    font-family: SourceSansPro;
+    font-size: 15px;
+    color: #666666;
+}
+.read-more {
+    font-family: SourceSansPro;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #a88d7b;
+}
 // about page
 .background-who-are-we {
     display: grid;
@@ -55,15 +77,20 @@
 // product grids
 .image-product-container {
     display: grid;
-    padding: 2rem 10rem;
+    // padding: 2rem 10rem;
+    margin: auto;
     grid-template-columns: repeat(3, 1fr);
+    width: 71.375rem;
+    
 }
 // collect grid
 .collection-image-grid {
     display: grid;
-    padding: 2rem 20rem;
+    // padding: 2rem 20rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
-
+    width: 71.375rem;
+    margin: auto;
         p {
             font-family: SourceSansPro;
             font-size: 25px;

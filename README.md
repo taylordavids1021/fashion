@@ -64,6 +64,9 @@ Technologies and Tools Used:
 - look book layout
 - inserted images for look book
 
+2019-03-17
+- added links to
+
 
 ## Contributors
 
