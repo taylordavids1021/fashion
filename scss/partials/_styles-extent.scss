@@ -41,6 +41,7 @@
   font-weight: 600;
   letter-spacing: 0.5rem;
   color: #fffefe;
+  text-transform: uppercase;
 }
 .title-kids-fashion {
   margin-top: 15rem;
@@ -100,14 +101,14 @@
   color: #ffffff;
 }
 .lorem {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   line-height: 1.67;
   text-align: center;
   color: #e6e6e6;
 }
 .look-book {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   letter-spacing: 1.5px;
   text-align: center;
@@ -122,7 +123,7 @@
   object-fit: cover;
 }
 .featured-product {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 36px;
   line-height: 1.33;
   margin: 0;
@@ -137,7 +138,7 @@
   background-color: #f5f5f5;
 }
 .name-of-product {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 20px;
   font-weight: 600;
   color: #333333;
@@ -145,7 +146,7 @@
 }
 .product-price {
   text-align: center;
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: 600;
   color: #999999;
@@ -158,7 +159,7 @@
   object-fit: cover;
 }
 .new-collection {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 36px;
   line-height: 1.33;
   text-align: center;
@@ -179,14 +180,14 @@
   height: 40px;
   background-color: #a88d7b;
   border-radius: 0;
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   text-align: center;
   color: #ffffff;
 }
 // blog //
 .blog-text {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 36px;
   line-height: 1.33;
   text-align: center;
@@ -207,7 +208,7 @@
     }
 }
 .details-name {
-  font-family: Dosis;
+  font-family: "Dosis";
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 1rem;
@@ -216,13 +217,14 @@
   text-transform: uppercase;
 }
 .details p{
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   color: #999999;
   text-align: left;
+  line-height: 1.6;
 }
 .details-text {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 18px;
   font-weight: bold;
   color: #e5e5e5;
@@ -284,7 +286,7 @@
   object-fit: cover;
 }
 .about-us-heading {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 50px;
   letter-spacing: 5px;
   text-align: center;
@@ -308,16 +310,14 @@
   object-fit: cover;
 }
 .who-are-we-text p {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
-  line-height: 1.67;
-  letter-spacing: normal;
+  // line-height: 1.67;
   text-align: left;
   color: #666666;
-  padding:0 10rem;
 }
 .who-are-we-text h2 {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 36px;
   line-height: 0.67;
   text-align: center;
@@ -329,7 +329,7 @@
   background-color: #ffffff;
 }
 .meet-our-team {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 36px;
   line-height: 1.33;
   text-align: center;
@@ -342,23 +342,27 @@
   object-fit: cover;
 }
 .member {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
+  line-height: 2.4;
   color: #333333;
   text-align: center;
 }
 .position {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   text-align: center;
+  line-height: 1.47;
   color: #999999;
 }
 .social-m-icons{
   font-size: 15px;
   text-align: center;
   color: #555555;
+  letter-spacing: 1rem;
+  line-height: 1.47;
 }
 .what-we-do-image{
   width: 600px;
@@ -371,7 +375,7 @@
   background-color: #ffffff;
 
     p{
-      font-family: SourceSansPro;
+      font-family: "Source Sans Pro";
       font-size: 15px;
       line-height: 1.67;
       text-align: left;
@@ -379,7 +383,7 @@
     }
 }
 .what-we-do-title {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 36px;
   line-height: 0.67;
   text-align: center;
@@ -394,7 +398,7 @@
   background-color: #666666;
 
     h1 {
-      font-family: SourceSansPro;
+      font-family: "Source Sans Pro";
       font-size: 48px;
       line-height: 1.25;
       letter-spacing: 4.8px;
@@ -405,7 +409,7 @@
 }
 .title,
 #title {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 24px;
   font-weight: 300;
   line-height: 1.5;
@@ -422,14 +426,14 @@
 .blog-image {
   width: 1900px;
   height: 445px;
-  background: linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(/images/insta7.jpg);
+  background: linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/insta7.jpg);
   text-align: center;  
 }
 .home-blog-us {
   padding: 10rem 0;
 }
 .blog-title {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 50px;
   letter-spacing: 5px;
   color: #ffffff;
@@ -450,13 +454,13 @@
   background-color: #ffffff;
 }
 .blog-product {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 20px;
   font-weight: 600;
   color: #333333;
 }
 .blog-date {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   color: #999999;
 }
@@ -466,12 +470,12 @@
   background-color: #ffffff;  
 }
 .blog-info {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   color: #666666;
 }
 .blog-read-more {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: 600;
   color: #706259;

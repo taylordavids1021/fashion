@@ -30,23 +30,23 @@
     grid-template-columns: 1fr;
 }
 .every-day-living {
-    font-family: SourceSansPro;
+    font-family: "Source Sans Pro";
     font-size: 25px;
     font-weight: 600;
     color: #333333;
 }
 .every-day-living-date {
-    font-family: SourceSansPro;
+    font-family: "Source Sans Pro";
     font-size: 15px;
     color: #999999;
 }
 .every-day-living-p {
-    font-family: SourceSansPro;
+    font-family: "Source Sans Pro";
     font-size: 15px;
     color: #666666;
 }
 .read-more {
-    font-family: SourceSansPro;
+    font-family: "Source Sans Pro";
     font-size: 15px;
     letter-spacing: 1.5px;
     color: #a88d7b;
@@ -57,6 +57,8 @@
     grid-template-columns: repeat(2, auto);
     padding: 5rem 8rem;
     text-align: center;
+    width: 71.375rem;
+    margin: auto;
 
     h2 {
         text-transform: uppercase;
@@ -67,6 +69,8 @@
     grid-gap:0;
     align-items: center;
     justify-items: center;
+    width: 71.375rem;
+    margin: auto;
     grid-template-columns: repeat(4, auto);
 }
 .what-we-do{
@@ -74,6 +78,8 @@
     justify-items: center;
     grid-gap: 1rem;
     display: grid;
+    margin: auto;
+    width: 71.375rem;
     margin: auto;
     grid-template-columns: repeat(2, auto);
 }
@@ -84,19 +90,21 @@
     grid-template-columns: repeat(3, auto);
     align-items: center;
     justify-items: center;
+    width: 71.375rem;
+    margin: auto;
 }
 // collect grid
 .collection-image-grid {
     display: grid;
     // padding: 2rem 20rem;
-    // grid-gap: 1rem;
+    grid-gap: 1rem;
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(2, auto);
-    // width: 71.375rem;
+    width: 71.375rem;
     margin: auto;
         p {
-            font-family: SourceSansPro;
+            font-family: "Source Sans Pro";
             font-size: 25px;
             line-height: 1.92;
             letter-spacing: 2.5px;
