@@ -1,16 +1,25 @@
 // ************ components ************** //
-@import url('https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro');
 
+// google font
+@import url('https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro');
+// button style
 button {
     width: 150px;
     height: 40px;
     border-radius: 20px;
     background-color: #a88d7b;
 }
-
+// form text area
 textarea {
-    width: 1170px;
+    width: 1210px;
     height: 150px;
     border: solid 1px #e6e6e6;
     background-color: #ffffff;
+    grid-column: 2 span;
 }
+// iframe
+iframe {
+    margin: auto;
+    padding: 2rem;
+}
+// end of style

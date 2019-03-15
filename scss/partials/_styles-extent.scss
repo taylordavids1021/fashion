@@ -1,4 +1,5 @@
-// // ************ class - id extentions *************** //
+// // ************ class - id extentions *************** //\
+// banner image and text
 .banner-image {
     width: 118.75rem;
     height: 59.0625rem;
@@ -24,7 +25,6 @@
   margin-top: 3rem;
   word-spacing: 2rem;
 }
-
 .nav-grid li,
 .fas,
 .fa {
@@ -35,6 +35,7 @@
   color: #ffffff;
   text-transform: uppercase;
 }
+// company name
 .company {
   font-family: Dosis;
   font-size: 30px;
@@ -46,14 +47,7 @@
 .title-kids-fashion {
   margin-top: 15rem;
 }
-// .arrow-down {
-//   margin-top: 15rem;
-//   font-family: Linearicons-Free;
-//   font-size: 40px;
-//   line-height: 1.6;
-//   text-align: center;
-//   color: #ffffff;
-// }
+// animation arrow
 .arrow-down {
   width: 100%;
   margin: 0 auto;
@@ -72,6 +66,7 @@
   bottom: 0;
   border-right: 4px solid #fff;
   border-bottom: 4px solid #fff;
+  animation: 3s infinite ease;
   -webkit-animation: 3s infinite ease;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -92,6 +87,7 @@
     top: 80px;
   }
 }
+// explore kids fashion style
 .explore-kids-fashion{
   font-family: Dosis;
   font-size: 50px;
@@ -107,21 +103,13 @@
   text-align: center;
   color: #e6e6e6;
 }
-.look-book {
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  letter-spacing: 1.5px;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin: auto;
-}
 // featured product images 
 .image-product-holder {
   width: 370px;
   height: 360px;
   object-fit: cover;
 }
+// featured products
 .featured-product {
   font-family: "Source Sans Pro";
   font-size: 36px;
@@ -198,8 +186,37 @@
   width: 585px;
   height: 405px;
   background-color: #666666;
+}// every day living
+.every-day-living {
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333;
 }
+//  date styling
+.every-day-living-date {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  color: #999999;
+}
+//  paragraph
+.every-day-living-p {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  color: #666666;
+}
+// read more
+.read-more {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  color: #a88d7b;
+}
+// footer
 .details {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
   background-color: #2d2827;
 
     .fas,
@@ -209,11 +226,12 @@
 }
 .details-name {
   font-family: "Dosis";
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   letter-spacing: 1rem;
   color: #e5e5e5;
   text-align: left;
+  padding-bottom: 0.8rem;
   text-transform: uppercase;
 }
 .details p{
@@ -221,7 +239,12 @@
   font-size: 15px;
   color: #999999;
   text-align: left;
-  line-height: 1.6;
+  line-height: 1.6;  
+
+  .fas,
+  .fa {
+  color: #999999;
+  }
 }
 .details-text {
   font-family: "Source Sans Pro";
@@ -423,31 +446,6 @@
 }
 
 // blog page
-.blog-image {
-  width: 1900px;
-  height: 445px;
-  background: linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/insta7.jpg);
-  text-align: center;  
-}
-.home-blog-us {
-  padding: 10rem 0;
-}
-.blog-title {
-  font-family: "Source Sans Pro";
-  font-size: 50px;
-  letter-spacing: 5px;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-.blogs-images{
-  width: 370px;
-  height: 225px;
-  object-fit: cover;
-}
-.look-book-image{
-  background:linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/mpic16.jpg);
-  text-align: center;
-}
 .blog-background {
   width: 1900px;
   height: 928px;
@@ -480,6 +478,41 @@
   font-weight: 600;
   color: #706259;
 }
+.blog-image {
+  width: 1900px;
+  height: 445px;
+  background: linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/insta7.jpg);
+  text-align: center;  
+}
+.home-blog-us {
+  padding: 10rem 0;
+}
+.blog-title {
+  font-family: "Source Sans Pro";
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.blogs-images{
+  width: 370px;
+  height: 225px;
+  object-fit: cover;
+}
+// look book style
+.look-book {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: auto;
+}
+.look-book-image{
+  background:linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/mpic16.jpg);
+  text-align: center;
+}
 // look book
 .look-book-images{
   width: 40rem;
@@ -487,7 +520,40 @@
   transition: 1s ease-in;
 }
 // contact 
-.contact-grid {
-  width: 1900px;
-  height: 1841px;
+.business-details {
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #333333;
 }
+.business-info {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  line-height: 1.39;
+  color: #666666;
+}
+.border {
+width: 390px;
+border: solid 1px #e6e6e6;
+background-color: #f0f0f0;
+}
+.form-button {
+  width: 155px;
+  height: 40px;
+  background-color: #ac907f;
+  border-radius: 0;
+  align-self: left;
+  justify-self: left;
+
+  p {
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+  }
+}
+// end of style

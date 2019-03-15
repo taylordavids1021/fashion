@@ -1,7 +1,10 @@
 // ******************* base ***************** //
+// body style
 body {
     overflow-x: hidden;
+    margin: 0;
 }
+// links
 li {
     display: inline;
     text-decoration: none;
@@ -20,14 +23,17 @@ a {
     text-align: left;
     color: #ffffff;
 }
+// unodered list
 ul {
     text-align: center;
 }
+// main container
 main {
     width: 118.75rem;
     height: 44.0625rem;
     background-color: #ffffff;
 }
+// section style and paragraph
 section {
     width: 118.75rem;
     height: 34.5rem;
@@ -35,9 +41,10 @@ section {
     background-color: #666666;
     text-align: center;
     background-attachment: fixed;
-    background-image: url(../images/blog.jpg);
+    background-image:linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/blog.jpg);
     background-size: cover;
 
+        // section paragraph
         p{
             font-family: "Source Sans Pro";
             font-size: 15px;
@@ -46,6 +53,7 @@ section {
             color: #ffffff;
         }
 }
+// footer
 footer {
     font-family: "Source Sans Pro";
     font-size: 14px;
@@ -54,11 +62,14 @@ footer {
     text-align: center;
     color: #666666;
 }
+// underlined under headings
 hr {
     width: 5rem;
     height: 0.125rem;
     background-color: #a88d7b;
 }
+// heading style 4
 h4 {
     text-transform: uppercase;
 }
+// end of style

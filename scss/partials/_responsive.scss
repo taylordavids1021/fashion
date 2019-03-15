@@ -1,1 +1,93 @@
 // **************** responsive ********************** //
+// responsive for mobile
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 515px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    // homepage
+    .banner-grid,
+    .about-grid {
+        display: grid;
+        margin: auto;
+        grid-template-columns: repeat(3, auto);
+    }
+    // collect grid
+    .collection-image-grid {
+        display: grid;
+        // padding: 2rem 20rem;
+        grid-gap: 1rem;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(2, auto);
+        width: 0;
+        align-self: left;
+        justify-self: left;
+        margin: auto;
+        
+        // paragraph
+            p {
+                font-family: "Source Sans Pro";
+                font-size: 25px;
+                line-height: 1.92;
+                letter-spacing: 2.5px;
+                text-align: center;
+                color: #a88d7b;
+                text-transform: uppercase;
+            }
+    }
+    // product grids
+    .image-product-container {
+        grid-template-columns: repeat(3, auto);
+        align-items: left;
+        justify-items: left;
+        width:0;
+    }
+    // blog grid
+    .blog-grid {
+        display: grid;
+        padding: 0 15rem;
+        margin: 1rem;
+        grid-template-columns: 1fr;
+
+    }
+    .details-name {
+        font-family: "Dosis";
+        font-size: 45px;
+        text-align: center;
+      }
+    .details {
+          .fas,
+          .fa {
+            margin-right: 0.7rem;
+          }
+      }
+    .details {
+        text-align: left;
+        grid-template-columns: repeat(2, 750px);
+        padding: 3rem;
+        align-items: left;
+        justify-items: left;
+    }
+    footer {
+        text-align: left;
+        padding: 2rem;
+      }
+  }
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 764px)
+  and (-webkit-min-device-pixel-ratio: 2){}
+
+//   responsive for tablet
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {}
+
+
+//   responsive for laptop 
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1){}

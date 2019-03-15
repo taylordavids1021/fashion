@@ -6,13 +6,19 @@ button {
   background-color: #a88d7b; }
 
 textarea {
-  width: 1170px;
+  width: 1210px;
   height: 150px;
   border: solid 1px #e6e6e6;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  grid-column: 2 span; }
+
+iframe {
+  margin: auto;
+  padding: 2rem; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  margin: 0; }
 
 li {
   display: inline;
@@ -47,7 +53,7 @@ section {
   background-color: #666666;
   text-align: center;
   background-attachment: fixed;
-  background-image: url(../images/blog.jpg);
+  background-image: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/blog.jpg);
   background-size: cover; }
   section p {
     font-family: "Source Sans Pro";
@@ -136,6 +142,7 @@ h4 {
   bottom: 0;
   border-right: 4px solid #fff;
   border-bottom: 4px solid #fff;
+  animation: 3s infinite ease;
   -webkit-animation: 3s infinite ease;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg); }
@@ -164,15 +171,6 @@ h4 {
   line-height: 1.67;
   text-align: center;
   color: #e6e6e6; }
-
-.look-book {
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  letter-spacing: 1.5px;
-  text-align: center;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin: auto; }
 
 .image-product-holder {
   width: 370px;
@@ -253,7 +251,32 @@ h4 {
   height: 405px;
   background-color: #666666; }
 
+.every-day-living {
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: 600;
+  color: #333333; }
+
+.every-day-living-date {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  color: #999999; }
+
+.every-day-living-p {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  color: #666666; }
+
+.read-more {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  color: #a88d7b; }
+
 .details {
+  margin: auto;
+  align-items: center;
+  justify-items: center;
   background-color: #2d2827; }
   .details .fas,
   .details .fa {
@@ -261,11 +284,12 @@ h4 {
 
 .details-name {
   font-family: "Dosis";
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   letter-spacing: 1rem;
   color: #e5e5e5;
   text-align: left;
+  padding-bottom: 0.8rem;
   text-transform: uppercase; }
 
 .details p {
@@ -274,6 +298,9 @@ h4 {
   color: #999999;
   text-align: left;
   line-height: 1.6; }
+  .details p .fas,
+  .details p .fa {
+    color: #999999; }
 
 .details-text {
   font-family: "Source Sans Pro";
@@ -461,31 +488,6 @@ h4 {
 .heading-grid {
   width: 1900px; }
 
-.blog-image {
-  width: 1900px;
-  height: 445px;
-  background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/insta7.jpg);
-  text-align: center; }
-
-.home-blog-us {
-  padding: 10rem 0; }
-
-.blog-title {
-  font-family: "Source Sans Pro";
-  font-size: 50px;
-  letter-spacing: 5px;
-  color: #ffffff;
-  text-transform: uppercase; }
-
-.blogs-images {
-  width: 370px;
-  height: 225px;
-  object-fit: cover; }
-
-.look-book-image {
-  background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/mpic16.jpg);
-  text-align: center; }
-
 .blog-background {
   width: 1900px;
   height: 928px;
@@ -518,14 +520,78 @@ h4 {
   font-weight: 600;
   color: #706259; }
 
+.blog-image {
+  width: 1900px;
+  height: 445px;
+  background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/insta7.jpg);
+  text-align: center; }
+
+.home-blog-us {
+  padding: 10rem 0; }
+
+.blog-title {
+  font-family: "Source Sans Pro";
+  font-size: 50px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.blogs-images {
+  width: 370px;
+  height: 225px;
+  object-fit: cover; }
+
+.look-book {
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: auto; }
+
+.look-book-image {
+  background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/mpic16.jpg);
+  text-align: center; }
+
 .look-book-images {
   width: 40rem;
   height: 30rem;
   transition: 1s ease-in; }
 
-.contact-grid {
-  width: 1900px;
-  height: 1841px; }
+.business-details {
+  font-family: "Source Sans Pro";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #333333; }
+
+.business-info {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  line-height: 1.39;
+  color: #666666; }
+
+.border {
+  width: 390px;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0; }
+
+.form-button {
+  width: 155px;
+  height: 40px;
+  background-color: #ac907f;
+  border-radius: 0;
+  align-self: left;
+  justify-self: left; }
+  .form-button p {
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #ffffff; }
 
 .banner-grid,
 .about-grid {
@@ -554,28 +620,6 @@ h4 {
   display: grid;
   grid-template-columns: 1fr; }
 
-.every-day-living {
-  font-family: "Source Sans Pro";
-  font-size: 25px;
-  font-weight: 600;
-  color: #333333; }
-
-.every-day-living-date {
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  color: #999999; }
-
-.every-day-living-p {
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  color: #666666; }
-
-.read-more {
-  font-family: "Source Sans Pro";
-  font-size: 15px;
-  letter-spacing: 1.5px;
-  color: #a88d7b; }
-
 .background-who-are-we {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -602,7 +646,6 @@ h4 {
   display: grid;
   margin: auto;
   width: 71.375rem;
-  margin: auto;
   grid-template-columns: repeat(2, auto); }
 
 .image-product-container {
@@ -686,21 +729,110 @@ h4 {
 
 .contact-grid {
   display: grid;
+  text-align: center;
   grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  padding: 2rem 0;
+  width: 71.375rem;
+  align-items: center;
+  justify-items: center; }
+  .contact-grid .fa-clock {
+    width: 33px;
+    height: 33px;
+    font-size: 36px; }
+  .contact-grid .fa-map-marker-alt {
+    font-size: 36px;
+    line-height: 0.58; }
+  .contact-grid .fa-phone {
+    transform: rotate(90deg); }
+  .contact-grid .fas,
+  .contact-grid .fa {
+    line-height: 1.17;
+    color: #666666;
+    padding: 0.5rem; }
+
+.business-stats {
+  width: 390px;
+  height: 200px;
+  padding: 1rem;
+  border: solid 1px #e6e6e6;
+  background-color: #f0f0f0; }
+  .business-stats #email {
+    padding: 1rem 0; }
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  width: 71.375rem;
+  grid-gap: 2rem;
+  margin: auto;
+  padding: 2rem;
   align-items: center;
   justify-items: center; }
 
-.box {
-  width: 390px;
-  height: 200px;
+input {
+  width: 590px;
+  height: 50px;
+  margin: 0;
   border: solid 1px #e6e6e6;
-  background-color: #f0f0f0; }
+  background-color: #ffffff; }
 
-form {
-  align-items: center;
-  justify-items: center;
-  text-align: left;
-  display: grid;
-  grid-template-columns: repeat(2, auto); }
+@media only screen and (min-device-width: 320px) and (max-device-width: 515px) and (-webkit-min-device-pixel-ratio: 2) {
+  .banner-grid,
+  .about-grid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, auto); }
+
+  .collection-image-grid {
+    display: grid;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, auto);
+    width: 0;
+    align-self: left;
+    justify-self: left;
+    margin: auto; }
+    .collection-image-grid p {
+      font-family: "Source Sans Pro";
+      font-size: 25px;
+      line-height: 1.92;
+      letter-spacing: 2.5px;
+      text-align: center;
+      color: #a88d7b;
+      text-transform: uppercase; }
+
+  .image-product-container {
+    grid-template-columns: repeat(3, auto);
+    align-items: left;
+    justify-items: left;
+    width: 0; }
+
+  .blog-grid {
+    display: grid;
+    padding: 0 15rem;
+    margin: 1rem;
+    grid-template-columns: 1fr; }
+
+  .details-name {
+    font-family: "Dosis";
+    font-size: 45px;
+    text-align: center; }
+
+  .details .fas,
+  .details .fa {
+    margin-right: 0.7rem; }
+
+  .details {
+    text-align: left;
+    grid-template-columns: repeat(2, 750px);
+    padding: 3rem;
+    align-items: left;
+    justify-items: left; }
+
+  footer {
+    text-align: left;
+    padding: 2rem; } }
 
 /*# sourceMappingURL=main.css.map */
