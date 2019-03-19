@@ -37,7 +37,7 @@
 }
 // company name
 .company {
-  font-family: Dosis;
+  font-family: "Dosis";
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 0.5rem;
@@ -48,45 +48,26 @@
   margin-top: 15rem;
 }
 // animation arrow
-.arrow-down {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  animation-name: arrow;
-}
-.arrow-down::after {
-  content: "";
-  width: 50px;
-  height: 50px;
-  position: absolute;
+.arrow {
+  width: 100px;
+  height: 100px;
   margin: auto;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  border-right: 4px solid #fff;
-  border-bottom: 4px solid #fff;
-  animation: 3s infinite ease;
-  -webkit-animation: 3s infinite ease;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+  position: absolute;
+  left: 47%;
+  animation: move 2s ease infinite;
 }
-@-webkit-keyframes arrow {
-  0%, 100% {
-    top: 50px;
+@keyframes move {
+  0% {
+      margin-top: 7rem;
   }
   50% {
-    top: 80px;
+      margin-top: 0;
+  }
+  100% {
+      margin-top: 7rem;
   }
 }
-@keyframes arrow {
-  0%, 100% {
-    top: 50px;
-  }
-  50% {
-    top: 80px;
-  }
-}
+// 
 // explore kids fashion style
 .explore-kids-fashion{
   font-family: Dosis;
@@ -270,6 +251,10 @@
   width: 1900px;
   height: 53px;
   background-color: #eeeeee;
+
+    .fas{
+      color: #999999;
+    }
 }
 .company-about{
   font-family: Dosis;
@@ -292,6 +277,14 @@
 .nav-about {
   word-spacing: 1rem;
 }
+.company-about h2 {
+  font-family: "Dosis";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #000000;
+}
 .home-about-us {
   width: 1900px;
   height: 445px;
@@ -299,14 +292,17 @@
   background-size: cover;
   text-align: center;
   object-fit: cover;
+  align-items: center;
+  justify-items: center;
 }
 .home-contact-us{
   width: 1900px;
   height: 445px;
-  background-size: cover;
+  // background-size: cover;
   text-align: center;
   background:linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/kid1.jpg);
-  object-fit: cover;
+  align-items: center;
+  justify-items: center;
 }
 .about-us-heading {
   font-family: "Source Sans Pro";

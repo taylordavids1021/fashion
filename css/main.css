@@ -3,6 +3,7 @@ button {
   width: 150px;
   height: 40px;
   border-radius: 20px;
+  border: 0;
   background-color: #a88d7b; }
 
 textarea {
@@ -114,7 +115,7 @@ h4 {
   text-transform: uppercase; }
 
 .company {
-  font-family: Dosis;
+  font-family: "Dosis";
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 0.5rem;
@@ -124,39 +125,21 @@ h4 {
 .title-kids-fashion {
   margin-top: 15rem; }
 
-.arrow-down {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  animation-name: arrow; }
-
-.arrow-down::after {
-  content: "";
-  width: 50px;
-  height: 50px;
-  position: absolute;
+.arrow {
+  width: 100px;
+  height: 100px;
   margin: auto;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  border-right: 4px solid #fff;
-  border-bottom: 4px solid #fff;
-  animation: 3s infinite ease;
-  -webkit-animation: 3s infinite ease;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg); }
+  position: absolute;
+  left: 47%;
+  animation: move 2s ease infinite; }
 
-@-webkit-keyframes arrow {
-  0%, 100% {
-    top: 50px; }
+@keyframes move {
+  0% {
+    margin-top: 7rem; }
   50% {
-    top: 80px; } }
-@keyframes arrow {
-  0%, 100% {
-    top: 50px; }
-  50% {
-    top: 80px; } }
+    margin-top: 0; }
+  100% {
+    margin-top: 7rem; } }
 .explore-kids-fashion {
   font-family: Dosis;
   font-size: 50px;
@@ -324,6 +307,8 @@ h4 {
   width: 1900px;
   height: 53px;
   background-color: #eeeeee; }
+  .about-grid .fas {
+    color: #999999; }
 
 .company-about {
   font-family: Dosis;
@@ -345,21 +330,31 @@ h4 {
 .nav-about {
   word-spacing: 1rem; }
 
+.company-about h2 {
+  font-family: "Dosis";
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #000000; }
+
 .home-about-us {
   width: 1900px;
   height: 445px;
   background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/18368.jpg);
   background-size: cover;
   text-align: center;
-  object-fit: cover; }
+  object-fit: cover;
+  align-items: center;
+  justify-items: center; }
 
 .home-contact-us {
   width: 1900px;
   height: 445px;
-  background-size: cover;
   text-align: center;
   background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/kid1.jpg);
-  object-fit: cover; }
+  align-items: center;
+  justify-items: center; }
 
 .about-us-heading {
   font-family: "Source Sans Pro";
@@ -622,8 +617,9 @@ h4 {
 
 .background-who-are-we {
   display: grid;
+  grid-gap: 1rem;
   grid-template-columns: repeat(2, auto);
-  padding: 5rem 8rem;
+  padding: 5rem 9rem;
   text-align: center;
   width: 71.375rem;
   margin: auto; }
