@@ -18,8 +18,8 @@ iframe {
   padding: 2rem; }
 
 body {
-  overflow-x: hidden;
-  margin: 0; }
+  margin: 0 auto;
+  background-size: 100vh; }
 
 li {
   display: inline;
@@ -41,11 +41,6 @@ a {
 
 ul {
   text-align: center; }
-
-main {
-  width: 118.75rem;
-  height: 44.0625rem;
-  background-color: #ffffff; }
 
 section {
   width: 118.75rem;
@@ -284,6 +279,10 @@ h4 {
   .details p .fas,
   .details p .fa {
     color: #999999; }
+
+.details p:hover {
+  text-decoration: underline;
+  color: white; }
 
 .details-text {
   font-family: "Source Sans Pro";

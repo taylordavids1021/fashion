@@ -227,6 +227,10 @@
   color: #999999;
   }
 }
+.details p:hover {
+  text-decoration: underline;
+  color: white;
+} 
 .details-text {
   font-family: "Source Sans Pro";
   font-size: 18px;

@@ -1,8 +1,8 @@
 // ******************* base ***************** //
 // body style
 body {
-    overflow-x: hidden;
-    margin: 0;
+    margin: 0 auto;
+    background-size: 100vh;
 }
 // links
 li {
@@ -26,12 +26,6 @@ a {
 // unodered list
 ul {
     text-align: center;
-}
-// main container
-main {
-    width: 118.75rem;
-    height: 44.0625rem;
-    background-color: #ffffff;
 }
 // section style and paragraph
 section {
