@@ -203,6 +203,13 @@
         padding: 1rem 0;
       }
 }
+// shop layout
+.shop-grid {
+    padding: 5rem 0;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+}
 // form style
 form {
     display: grid;

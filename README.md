@@ -71,6 +71,9 @@ Technologies and Tools Used:
 - Responsive @media
 - Responsive on Home page
 
+2019-03-22
+- Created shop page layout
+
 
 ## Contributors
 

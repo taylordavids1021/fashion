@@ -587,6 +587,23 @@ h4 {
     letter-spacing: 1.5px;
     color: #ffffff; }
 
+.shop-background-color {
+  width: 1900px;
+  height: 1610px;
+  background-color: #f5f5f5; }
+
+.shop-image {
+  width: 1900px;
+  height: 445px;
+  background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/shop-main.jpg);
+  text-align: center;
+  object-fit: cover; }
+
+.shop-images {
+  width: 300px;
+  height: 300px;
+  background-color: #666666; }
+
 .banner-grid,
 .about-grid {
   display: grid;
@@ -754,6 +771,12 @@ h4 {
   background-color: #f0f0f0; }
   .business-stats #email {
     padding: 1rem 0; }
+
+.shop-grid {
+  padding: 5rem 0;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr); }
 
 form {
   display: grid;
