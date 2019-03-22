@@ -73,6 +73,8 @@ Technologies and Tools Used:
 
 2019-03-22
 - Created shop page layout
+- Added extra pages to shop
+- Corrected nav bar to center
 
 
 ## Contributors

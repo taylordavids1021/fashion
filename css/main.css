@@ -310,32 +310,16 @@ h4 {
     color: #999999; }
 
 .company-about {
-  font-family: Dosis;
-  font-size: 30px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  color: #000000;
-  text-transform: uppercase; }
-
-.nav-grid-about li {
-  font-family: Dosis;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  color: #666666;
-  height: 93px;
-  background-color: #ffffff; }
-
-.nav-about {
-  word-spacing: 1rem; }
-
-.company-about h2 {
   font-family: "Dosis";
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 1.5px;
-  text-align: left;
   color: #000000; }
+
+.nav-about {
+  word-spacing: 1rem;
+  text-align: center;
+  margin: auto; }
 
 .home-about-us {
   width: 1900px;
@@ -602,7 +586,57 @@ h4 {
 .shop-images {
   width: 300px;
   height: 300px;
-  background-color: #666666; }
+  margin: auto;
+  position: relative; }
+  .shop-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .shop-images .product-sale {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background-color: #ac907f;
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    margin: auto;
+    line-height: 3.2;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fefefe;
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem; }
+
+.cart-button {
+  width: 180px;
+  height: 44px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #ac907f;
+  border-radius: 0;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #ffffff; }
+  .cart-button .fas,
+  .cart-button .fa {
+    padding: 0.5rem; }
+
+.cart-price {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2.67;
+  color: #999999; }
+
+.product-info {
+  text-align: left; }
+
+.next-page {
+  word-spacing: 3rem;
+  text-align: right; }
 
 .banner-grid,
 .about-grid {
@@ -617,11 +651,13 @@ h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
   .nav-grid-about a {
-    font-family: Dosis;
+    font-family: "Dosis";
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.8px;
     color: #666666;
+    text-align: center;
+    margin: auto;
     text-transform: uppercase; }
 
 .nav-about {
@@ -773,10 +809,24 @@ h4 {
     padding: 1rem 0; }
 
 .shop-grid {
-  padding: 5rem 0;
   display: grid;
+  grid-gap: 2rem;
+  margin: auto;
+  width: 71.375rem;
   text-align: center;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(2, auto); }
+  .shop-grid h1 {
+    font-family: "Source Sans Pro";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.92;
+    text-align: left;
+    color: #333333; }
+  .shop-grid p {
+    font-family: "Source Sans Pro";
+    font-size: 15px;
+    line-height: 1.67;
+    color: #666666; }
 
 form {
   display: grid;

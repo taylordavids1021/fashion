@@ -15,11 +15,13 @@
     grid-template-columns: repeat(3, 1fr);
 
     a {
-        font-family: Dosis;
+        font-family: "Dosis";
         font-size: 16px;
         font-weight: 600;
         letter-spacing: 0.8px;
         color: #666666;
+        text-align: center;
+        margin: auto;
         text-transform: uppercase;
     }
 }
@@ -205,10 +207,28 @@
 }
 // shop layout
 .shop-grid {
-    padding: 5rem 0;
     display: grid;
+    grid-gap: 2rem;
+    margin: auto;
+    width: 71.375rem;
     text-align: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
+
+        h1 {
+            font-family: "Source Sans Pro";
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 1.92;
+            text-align: left;
+            color: #333333;
+        }
+
+        p {
+            font-family: "Source Sans Pro";
+            font-size: 15px;
+            line-height: 1.67;
+            color: #666666;
+        }
 }
 // form style
 form {
