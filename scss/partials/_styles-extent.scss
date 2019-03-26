@@ -503,6 +503,12 @@
   height: 30rem;
   transition: 1s ease-in;
 }
+.look-book-images:hover{
+  width: 45rem;
+  height: 40rem;
+  border-radius: 2px solid black;
+  transition: 1s ease-in-out;
+}
 // contact 
 .business-details {
   font-family: "Source Sans Pro";
