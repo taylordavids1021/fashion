@@ -3,7 +3,8 @@
 .banner-grid,
 .about-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    grid-template-columns: repeat(3, auto);
 }
 .nav-grid {
     display: grid;
@@ -13,6 +14,11 @@
 .nav-grid-about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+    .fa,
+    .fas {
+      color:#666666;
+    }
 
     a {
         font-family: "Dosis";
@@ -48,10 +54,8 @@
 }
 .meet-our-team-background {
     display: grid;
-    grid-gap:0;
-    align-items: center;
-    justify-items: center;
     width: 71.375rem;
+    height: 505px;
     margin: auto;
     grid-template-columns: repeat(4, auto);
 }
@@ -99,10 +103,10 @@
 // good stuff grid
 .goodstuff-grid {
     display: grid;
-    padding: 10rem 0 0 10rem;
     grid-template-columns: repeat(2,1fr);
     width: 1900px;
-    height: 552px;
+    align-self: center;
+    justify-self: center;
     opacity: 0.9;
 }
 // blog grid
@@ -150,6 +154,14 @@
     display: grid;
     text-align: center;
     grid-template-columns: repeat(2,1fr);
+
+    li{
+        color: #666666;
+    }
+    .fa-angle-down {
+        padding: 0.3rem;    
+        color: #666666;
+    }
 }
 
 // look book grid
@@ -159,6 +171,7 @@
     width: 100%;
     grid-gap: 0.5rem;
     background-size: cover;
+    margin: auto;
     grid-template-columns: repeat(3, 1fr);
 }
 // form
@@ -208,8 +221,9 @@
 // shop layout
 .shop-grid {
     display: grid;
-    grid-gap: 2rem;
+    // grid-gap: 2rem;
     margin: auto;
+    padding-top: 5rem;
     width: 71.375rem;
     text-align: center;
     grid-template-columns: repeat(2, auto);
@@ -218,7 +232,6 @@
             font-family: "Source Sans Pro";
             font-size: 25px;
             font-weight: 600;
-            line-height: 1.92;
             text-align: left;
             color: #333333;
         }
@@ -226,7 +239,6 @@
         p {
             font-family: "Source Sans Pro";
             font-size: 15px;
-            line-height: 1.67;
             color: #666666;
         }
 }

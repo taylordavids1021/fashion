@@ -7,7 +7,7 @@ button {
   background-color: #a88d7b; }
 
 button:hover {
-  width: 152px;
+  width: 200px;
   height: 42px; }
 
 textarea {
@@ -73,6 +73,7 @@ footer {
 hr {
   width: 5rem;
   height: 0.125rem;
+  margin-bottom: 2rem;
   background-color: #a88d7b; }
 
 h4 {
@@ -87,8 +88,6 @@ h4 {
   text-align: center; }
 
 .banner-text {
-  width: 1900px;
-  height: 53px;
   background-color: #2d2827;
   text-transform: uppercase; }
 
@@ -106,12 +105,15 @@ h4 {
 .nav-grid li,
 .fas,
 .fa {
-  font-family: Dosis;
+  font-family: "Dosis";
   font-size: 15px;
   letter-spacing: 0.8px;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase; }
+
+.free-shipping-for-standard-order-over-r100 {
+  letter-spacing: 2px; }
 
 .company {
   font-family: "Dosis";
@@ -140,7 +142,7 @@ h4 {
   100% {
     margin-top: 7rem; } }
 .explore-kids-fashion {
-  font-family: Dosis;
+  font-family: "Dosis";
   font-size: 50px;
   line-height: 0.96;
   text-align: center;
@@ -162,9 +164,8 @@ h4 {
 .featured-product {
   font-family: "Source Sans Pro";
   font-size: 36px;
-  line-height: 1.33;
-  margin: 0;
-  padding: 1rem;
+  margin: auto;
+  padding-top: 1rem;
   text-align: center;
   color: #333333;
   text-transform: uppercase; }
@@ -197,17 +198,18 @@ h4 {
 .new-collection {
   font-family: "Source Sans Pro";
   font-size: 36px;
-  line-height: 1.33;
+  margin: auto;
+  padding-top: 2rem;
   text-align: center;
   color: #333333;
   text-transform: uppercase; }
 
 .good-stuff {
-  font-family: Dosis;
+  font-family: "Dosis";
   font-size: 48px;
-  line-height: 0.5;
   text-align: center;
   color: #ffffff;
+  margin: auto;
   text-transform: uppercase; }
 
 .button-text {
@@ -223,7 +225,8 @@ h4 {
 .blog-text {
   font-family: "Source Sans Pro";
   font-size: 36px;
-  line-height: 1.33;
+  margin: auto;
+  padding-top: 2rem;
   text-align: center;
   color: #333333;
   text-transform: uppercase; }
@@ -307,9 +310,8 @@ h4 {
   background-color: #d7d7d7; }
 
 .about-grid {
-  width: 1900px;
-  height: 53px;
-  background-color: #eeeeee; }
+  background-color: #eeeeee;
+  text-transform: uppercase; }
   .about-grid .fas {
     color: #999999; }
 
@@ -375,9 +377,9 @@ h4 {
 .who-are-we-text h2 {
   font-family: "Source Sans Pro";
   font-size: 36px;
-  line-height: 0.67;
   text-align: center;
-  color: #333333; }
+  color: #333333;
+  margin: auto; }
 
 .meet-our-team-background {
   width: 1920px;
@@ -387,7 +389,7 @@ h4 {
 .meet-our-team {
   font-family: "Source Sans Pro";
   font-size: 36px;
-  line-height: 1.33;
+  margin: auto;
   text-align: center;
   text-transform: uppercase;
   color: #333333; }
@@ -439,7 +441,7 @@ h4 {
 .what-we-do-title {
   font-family: "Source Sans Pro";
   font-size: 36px;
-  line-height: 0.67;
+  margin: auto;
   text-align: center;
   text-transform: uppercase;
   color: #333333; }
@@ -537,15 +539,15 @@ h4 {
   text-align: center; }
 
 .look-book-images {
-  width: 40rem;
-  height: 30rem;
+  width: 35rem;
+  height: 25rem;
+  padding: 1rem;
   transition: 1s ease-in; }
 
 .look-book-images:hover {
-  width: 45rem;
-  height: 40rem;
   border-radius: 2px solid black;
-  transition: 1s ease-in-out; }
+  transition: 1s ease-in-out;
+  transform: scale(1.08); }
 
 .business-details {
   font-family: "Source Sans Pro";
@@ -583,7 +585,6 @@ h4 {
 
 .shop-background-color {
   width: 1900px;
-  height: 1610px;
   background-color: #f5f5f5; }
 
 .shop-image {
@@ -591,7 +592,8 @@ h4 {
   height: 445px;
   background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/shop-main.jpg);
   text-align: center;
-  object-fit: cover; }
+  object-fit: cover;
+  margin: auto; }
 
 .shop-images {
   width: 300px;
@@ -641,17 +643,23 @@ h4 {
   line-height: 2.67;
   color: #999999; }
 
+.shop-icon {
+  color: #666666; }
+
 .product-info {
   text-align: left; }
 
 .next-page {
   word-spacing: 3rem;
-  text-align: right; }
+  text-align: right;
+  padding-bottom: 1rem;
+  margin: auto; }
 
 .banner-grid,
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  margin: auto;
+  grid-template-columns: repeat(3, auto); }
 
 .nav-grid {
   display: grid;
@@ -660,6 +668,9 @@ h4 {
 .nav-grid-about {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
+  .nav-grid-about .fa,
+  .nav-grid-about .fas {
+    color: #666666; }
   .nav-grid-about a {
     font-family: "Dosis";
     font-size: 16px;
@@ -690,10 +701,8 @@ h4 {
 
 .meet-our-team-background {
   display: grid;
-  grid-gap: 0;
-  align-items: center;
-  justify-items: center;
   width: 71.375rem;
+  height: 505px;
   margin: auto;
   grid-template-columns: repeat(4, auto); }
 
@@ -733,10 +742,10 @@ h4 {
 
 .goodstuff-grid {
   display: grid;
-  padding: 10rem 0 0 10rem;
   grid-template-columns: repeat(2, 1fr);
   width: 1900px;
-  height: 552px;
+  align-self: center;
+  justify-self: center;
   opacity: 0.9; }
 
 .blog-grid {
@@ -776,6 +785,11 @@ h4 {
   display: grid;
   text-align: center;
   grid-template-columns: repeat(2, 1fr); }
+  .blog-share-grid li {
+    color: #666666; }
+  .blog-share-grid .fa-angle-down {
+    padding: 0.3rem;
+    color: #666666; }
 
 .look-book-grid {
   background: linear-gradient(rgba(128, 128, 128, 0.692), rgba(0, 0, 0, 0.548)), url(../images/shop-main.jpg);
@@ -783,6 +797,7 @@ h4 {
   width: 100%;
   grid-gap: 0.5rem;
   background-size: cover;
+  margin: auto;
   grid-template-columns: repeat(3, 1fr); }
 
 .contact-grid {
@@ -820,8 +835,8 @@ h4 {
 
 .shop-grid {
   display: grid;
-  grid-gap: 2rem;
   margin: auto;
+  padding-top: 5rem;
   width: 71.375rem;
   text-align: center;
   grid-template-columns: repeat(2, auto); }
@@ -829,13 +844,11 @@ h4 {
     font-family: "Source Sans Pro";
     font-size: 25px;
     font-weight: 600;
-    line-height: 1.92;
     text-align: left;
     color: #333333; }
   .shop-grid p {
     font-family: "Source Sans Pro";
     font-size: 15px;
-    line-height: 1.67;
     color: #666666; }
 
 form {

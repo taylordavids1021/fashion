@@ -76,6 +76,9 @@ Technologies and Tools Used:
 - Added extra pages to shop
 - Corrected nav bar to center
 
+2019-03-26
+- Look book styling
+
 
 ## Contributors
 
