@@ -78,6 +78,8 @@ Technologies and Tools Used:
 
 2019-03-26
 - Look book styling
+- Image enlargement on look book
+- remove from cart from shop page
 
 
 ## Contributors

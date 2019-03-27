@@ -149,11 +149,11 @@ h4 {
   text-transform: uppercase;
   color: #ffffff; }
 
-.lorem {
+.fashion-text {
   font-family: "Source Sans Pro";
   font-size: 15px;
-  line-height: 1.67;
   text-align: center;
+  margin: 0.5rem 45rem;
   color: #e6e6e6; }
 
 .image-product-holder {
@@ -620,10 +620,16 @@ h4 {
     top: 1rem;
     left: 1rem; }
 
-.cart-button {
-  width: 180px;
-  height: 44px;
+.cart-quantity-input {
+  width: 10%;
+  height: 12.5%;
+  text-align: center;
   color: white;
+  background-color: #ac907f; }
+
+.cart-button,
+.remove-cart {
+  width: 180px;
   text-transform: uppercase;
   background-color: #ac907f;
   border-radius: 0;
@@ -633,7 +639,9 @@ h4 {
   text-align: center;
   color: #ffffff; }
   .cart-button .fas,
-  .cart-button .fa {
+  .cart-button .fa,
+  .remove-cart .fas,
+  .remove-cart .fa {
     padding: 0.5rem; }
 
 .cart-price {
@@ -833,20 +841,21 @@ h4 {
   .business-stats #email {
     padding: 1rem 0; }
 
-.shop-grid {
+.cart-item {
   display: grid;
+  grid-gap: 2rem;
   margin: auto;
   padding-top: 5rem;
   width: 71.375rem;
   text-align: center;
   grid-template-columns: repeat(2, auto); }
-  .shop-grid h1 {
+  .cart-item h1 {
     font-family: "Source Sans Pro";
     font-size: 25px;
     font-weight: 600;
     text-align: left;
     color: #333333; }
-  .shop-grid p {
+  .cart-item p {
     font-family: "Source Sans Pro";
     font-size: 15px;
     color: #666666; }

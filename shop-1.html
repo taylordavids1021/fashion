@@ -8,11 +8,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <!--  awesome icon link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script
+    <!-- <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    crossorigin="anonymous"></script> -->
+    
 </head>
 <body>
     <div class="banner-text">
@@ -43,17 +43,17 @@
     <!-- navbar -->
     <div>
         <ul class="nav-grid-about">
-            <a href="file:///C:/Users/lifechoices/Desktop/fashion-shop/index.html"><h2 class="company-about">nateb</h2></a>
+            <a href="/index.html"><h2 class="company-about">nateb</h2></a>
             <div class="nav-about">
-                    <li><a href="file:///C:/Users/lifechoices/Desktop/fashion-shop/index.html">home</a></li>
-                    <li><a href="file:///C:/Users/lifechoices/Desktop/fashion-shop/shop.html">shop</a></li>
-                    <li><a href="file:///C:/Users/lifechoices/Desktop/fashion-shop/about.html">about</a></li>
+                    <li><a href="/index.html">home</a></li>
+                    <li><a href="/shop-1.html">shop</a></li>
+                    <li><a href="/about.html">about</a></li>
                     
-                    <li><a href="file:///C:/Users/lifechoices/Desktop/fashion-shop/blog.html">blog</a></li>
-                    <li><a href="file:///C:/Users/lifechoices/Desktop/fashion-shop/contact.html">contact</a></li>
-                    <li><a href="file:///C:/Users/lifechoices/Desktop/fashion-shop/look-book.html">lookbook</a></li>
+                    <li><a href="/blog.html">blog</a></li>
+                    <li><a href="/contact.html">contact</a></li>
+                    <li><a href="/look-book.html">lookbook</a></li>
                 
-                    <li><i class="fas fa-shopping-cart"></i></li>
+                    <li><i id="cart" class="fas fa-shopping-cart"></i></li>
                     <li><i class="fas fa-search"></i></li>
             </div>
         </ul>
@@ -61,7 +61,7 @@
     <div class="shop-image">
         <div class="home-blog-us">
             <a class="blog-title">shop</a><br>
-            <a class="text-style-home" href="file:///C:/Users/lifechoices/Desktop/fashion-shop/index.html">Home</a>
+            <a class="text-style-home" href="/index.html">Home</a>
             <a class="text-style-about" href="">/Shop</p></a>
         </div>
     </div>
@@ -78,56 +78,82 @@
     </ul>
     <div class="shop-background-color">
         <div class="shop-grid">
-            <div class="shop-images">
-                <img src="./images/jacket.jpg">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="shop-images" src="./images/jacket.jpg">
+                    <div class="product-info">
+                        <h1>Jacket</h1>
+                        <p class="cart-price">R290.00</p>
+                        <p>so so</p>
+                        <input class="cart-quantity-input" type="number" value="2"> 
+                        <button class="cart-button"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                        <button class="remove-cart"><i class="fas fa-shopping-cart"></i>remove item</button>
+                    </div>
+                </div>
             </div>
-            <div class="product-info">
-                <h1>Jacket</h1>
-                <p class="cart-price">R290.00</p>
-                <p>so so</p>
-                <button class="cart-button"><i class="fas fa-shopping-cart"></i>add to cart</button>
-                <button class="cart-button"><i class="fas fa-shopping-cart"></i>remove item</button>
+        </div>
+        <div class="shop-grid">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="shop-images" src="./images/boy-jeans.jpg">
+                    <div class="product-info">
+                        <h1>Jeans</h1>
+                        <p class="cart-price">R340.00</p>
+                        <p>so so</p>
+                        <button class="cart-button"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                        <button class="remove-cart"><i class="fas fa-shopping-cart"></i>remove item</button>
+                    </div>
+                </div>
             </div>
-            <div class="shop-images">
-                <img src="./images/boy-jeans.jpg">
+        </div>
+        <div class="shop-grid">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="shop-images" src="./images/girl-dress.jpg">
+                    <div class="product-info">
+                        <h1>Dress</h1>
+                        <p class="cart-price">R300.00</p>
+                        <p>so so</p>
+                        <button class="cart-button"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                        <button class="remove-cart"><i class="fas fa-shopping-cart"></i>remove item</button>
+                    </div>
+                </div>
             </div>
-            <div class="product-info">
-                <h1>Jeans</h1>
-                <p class="cart-price">R340.00</p>
-                <p>so so</p>
-                <button class="cart-button"><i class="fas fa-shopping-cart"></i>add to cart</button>
-                <button class="cart-button"><i class="fas fa-shopping-cart"></i>remove item</button>
+        </div>
+        <!-- div ribbon -->
+        <div class="shop-grid">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="shop-images" src="./images/shoes.jpg">
+                    <!-- a text -->
+                    <p class="product-sale">Sale</p>
+                    <div class="product-info">
+                        <h1>Sandals</h1>
+                        <p class="cart-price">R150.00</p>
+                        <p>so so</p>
+                        <button id="cart" class="cart-button"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                        <button class="remove-cart"><i class="fas fa-shopping-cart"></i>remove item</button>
+                    </div>
+                </div>
             </div>
-            <div class="shop-images">
-                <img src="./images/girl-dress.jpg">
-            </div>
-            <div class="product-info">
-                <h1>Dress</h1>
-                <p class="cart-price">R300.00</p>
-                <p>so so</p>
-                <button class="cart-button"><i class="fas fa-shopping-cart"></i>add to cart</button>
-                <button class="cart-button"><i class="fas fa-shopping-cart"></i>remove item</button>
-            </div>
-            <!-- div ribbon -->
-            <div class="shop-images">
-                <img src="./images/shoes.jpg">
-                <!-- a text -->
-                <p class="product-sale">Sale</p>
-            </div>
-            <div class="product-info">
-                <h1>Sandals</h1>
-                <p class="cart-price">R150.00</p>
-                <p>so so</p>
-                <button class="cart-button"><i class="fas fa-shopping-cart"></i>add to cart</button>
-                <button class="cart-button"><i class="fas fa-shopping-cart"></i>remove item</button>
-            </div>
+        </div>
+        <!-- cart total -->
+        <div class="cart-total">
+            <h1>Cart</h1>
+            <ul>
+                <li>Item</li>
+                <li>price</li>
+                <li>quantity</li>
+            </ul>
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">R300</span>
         </div>
         <!-- following pages -->
         <ul class="next-page">
             <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
+            <a href="/shop-2.html"><li>2</li></a>
+            <a href="/shop-3.html"><li>3</li></a>
+            <a href="/shop-4.html"><li>4</li></a>
             <li>...</li>
             <li>8</li>
             <li></li>
@@ -182,5 +208,10 @@
     <div class="footer">
         <footer>Copyright © 2019. Designed by nate_nonpareil. All rights reserved. Created by Taylor Davids.</footer>
     </div>
+    <script src="js/main.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
 </body>
 </html>

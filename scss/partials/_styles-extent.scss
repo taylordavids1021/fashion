@@ -78,11 +78,11 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.lorem {
+.fashion-text {
   font-family: "Source Sans Pro";
   font-size: 15px;
-  line-height: 1.67;
   text-align: center;
+  margin: 0.5rem 45rem;
   color: #e6e6e6;
 }
 // featured product images 
@@ -591,10 +591,16 @@ background-color: #f0f0f0;
       left: 1rem;
     }
 }
-.cart-button {
-  width: 180px;
-  height: 44px;
+.cart-quantity-input {
+  width: 10%;
+  height: 12.5%;
+  text-align: center;
   color: white;
+  background-color: #ac907f;
+}
+.cart-button,
+.remove-cart {
+  width: 180px;
   text-transform: uppercase;
   background-color: #ac907f;
   border-radius: 0;
