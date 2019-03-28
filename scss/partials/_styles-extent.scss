@@ -3,13 +3,13 @@
 .banner-image {
     width: 118.75rem;
     height: 59.0625rem;
-    background-color: #666666;
+    background-color: $var-grey;
     background:linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/kid1.jpg);
     margin: 0;
     text-align: center;
   }
 .banner-text{
-  background-color: #2d2827;
+  background-color: $banner-color;
   text-transform: uppercase;
   }
 .banner-grid
@@ -17,7 +17,7 @@
 .fa {
   font-size: 12px;
   text-align: center;
-  color: #999999;
+  color: $text;
 }
 .nav-grid {
   margin-top: 3rem;
@@ -30,7 +30,7 @@
   font-size: 15px;
   letter-spacing: 0.8px;
   text-align: center;
-  color: #ffffff;
+  color: $white-text;
   text-transform: uppercase;
 }
 .free-shipping-for-standard-order-over-r100{
@@ -42,7 +42,7 @@
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 0.5rem;
-  color: #fffefe;
+  color: $banner-color;
   text-transform: uppercase;
 }
 .title-kids-fashion {
@@ -76,14 +76,14 @@
   line-height: 0.96;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $white-text;
 }
 .fashion-text {
   font-family: "Source Sans Pro";
   font-size: 15px;
   text-align: center;
   margin: 0.5rem 45rem;
-  color: #e6e6e6;
+  color: $border;
 }
 // featured product images 
 .image-product-holder {
@@ -98,7 +98,7 @@
   margin: auto;
   padding-top: 1rem;
   text-align: center;
-  color: #333333;
+  color: $title;
   text-transform: uppercase;
 }
 .featured-product-background{
@@ -110,7 +110,7 @@
   font-family: "Source Sans Pro";
   font-size: 20px;
   font-weight: 600;
-  color: #333333;
+  color: $title;
   text-align: center;
 }
 .product-price {
@@ -118,7 +118,7 @@
   font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: 600;
-  color: #999999;
+  color: $text;
 }
 // new collection images
 .new-collection-image {
@@ -133,7 +133,7 @@
   margin: auto;
   padding-top: 2rem;
   text-align: center;
-  color: #333333;
+  color: $title;
   text-transform: uppercase;
 }
 // good stuff
@@ -142,19 +142,19 @@
   font-size: 48px;
   // line-height: 0.5;
   text-align: center;
-  color: #ffffff;
+  color: $white-text;
   margin: auto;
   text-transform: uppercase;
 }
 .button-text{
   width: 150px;
   height: 40px;
-  background-color: #a88d7b;
+  background-color: $border-color;
   border-radius: 0;
   font-family: "Source Sans Pro";
   font-size: 15px;
   text-align: center;
-  color: #ffffff;
+  color: $white-text;
 }
 // blog //
 .blog-text {
@@ -163,45 +163,45 @@
   margin: auto;
   padding-top: 2rem;
   text-align: center;
-  color: #333333;
+  color: $title;
   text-transform: uppercase;
 }
 .blog-images {
   width: 585px;
   height: 405px;
-  background-color: #666666;
+  background-color: $var-grey;
 }// every day living
 .every-day-living {
   font-family: "Source Sans Pro";
   font-size: 25px;
   font-weight: 600;
-  color: #333333;
+  color: $title;
 }
 //  date styling
 .every-day-living-date {
   font-family: "Source Sans Pro";
   font-size: 15px;
-  color: #999999;
+  color: $text;
 }
 //  paragraph
 .every-day-living-p {
   font-family: "Source Sans Pro";
   font-size: 15px;
-  color: #666666;
+  color: $var-grey;
 }
 // read more
 .read-more {
   font-family: "Source Sans Pro";
   font-size: 15px;
   letter-spacing: 1.5px;
-  color: #a88d7b;
+  color: $border-color;
 }
 // footer
 .details {
   margin: auto;
   align-items: center;
   justify-items: center;
-  background-color: #2d2827;
+  background-color: $banner-color;
 
     .fas,
     .fa {
@@ -221,13 +221,13 @@
 .details p{
   font-family: "Source Sans Pro";
   font-size: 15px;
-  color: #999999;
+  color: $text;
   text-align: left;
   line-height: 1.6;  
 
   .fas,
   .fa {
-  color: #999999;
+  color: $text;
   }
 }
 .details p:hover {
@@ -248,6 +248,9 @@
     height: 80px;
     object-fit: cover;
 }
+.image-insta:hover{
+  transform: scale(1.5);
+}
 .footer {
   width: 1900px;
   height: 85px;
@@ -261,7 +264,7 @@
   text-transform: uppercase;
 
     .fas{
-      color: #999999;
+      color: $text;
     }
 }
 .company-about {
@@ -300,19 +303,19 @@
   font-size: 50px;
   letter-spacing: 5px;
   text-align: center;
-  color: #ffffff;
+  color: $white-text;
 }
 .text-style-about {
-  color: #a8a8a8;
+  color: $text-2;
 }
 .text-style-home {
-  color: #ffffff;
+  color: $white-text;
 }
 // who are we
 .background-who-are-we {
   width: 1900px;
   height: 548px;
-  background-color: #ffffff;
+  background-color: $white-text;
 }
 .who-are-we-image{
   width: 600px;
@@ -323,19 +326,19 @@
   font-family: "Source Sans Pro";
   font-size: 15px;
   text-align: left;
-  color: #666666;
+  color: $var-grey;
 }
 .who-are-we-text h2 {
   font-family: "Source Sans Pro";
   font-size: 36px;
   text-align: center;
-  color: #333333;
+  color: $title;
   margin: auto;
 }
 .meet-our-team-background {
   width: 1920px;
   height: 721px;
-  background-color: #ffffff;
+  background-color: $white-text;
 }
 .meet-our-team {
   font-family: "Source Sans Pro";
@@ -343,7 +346,7 @@
   margin: auto;
   text-align: center;
   text-transform: uppercase;
-  color: #333333;
+  color: $title;
 }
 .meet-our-team-image {
   width: 270px;
@@ -356,7 +359,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   line-height: 2.4;
-  color: #333333;
+  color: $title;
   text-align: center;
 }
 .position {
@@ -364,12 +367,12 @@
   font-size: 15px;
   text-align: center;
   line-height: 1.47;
-  color: #999999;
+  color: $text;
 }
 .social-m-icons{
   font-size: 15px;
   text-align: center;
-  color: #555555;
+  color: $icons;
   letter-spacing: 1rem;
   line-height: 1.47;
 }
@@ -381,14 +384,14 @@
 .what-we-do {
   width: 1900px;
   height: 590px;
-  background-color: #ffffff;
+  background-color: $white-text;
 
     p{
       font-family: "Source Sans Pro";
       font-size: 15px;
       line-height: 1.67;
       text-align: left;
-      color: #666666;
+      color: $var-grey;
     }
 }
 .what-we-do-title {
@@ -397,14 +400,14 @@
   margin: auto;
   text-align: center;
   text-transform: uppercase;
-  color: #333333;
+  color: $title;
 }
 // typography styles
 .typography-image {
   // background-image: url();
   width: 1920px;
   height: 335px;
-  background-color: #666666;
+  background-color: $var-grey;
 
     h1 {
       font-family: "Source Sans Pro";
@@ -412,7 +415,7 @@
       line-height: 1.25;
       letter-spacing: 4.8px;
       text-align: center;
-      color: #ffffff;
+      color: $white-text;
       text-transform: uppercase;
     }
 }
@@ -423,46 +426,45 @@
   font-weight: 300;
   line-height: 1.5;
   letter-spacing: 2.4px;
-  color: #333333;
+  color: $title;
   text-transform: uppercase;
 }
 .heading-grid {
   width: 1900px;
-  // height: 2057px;
 }
 
 // blog page
 .blog-background {
   width: 1900px;
   height: 928px;
-  background-color: #ffffff;
+  background-color: $white-text;
 }
 .blog-product {
   font-family: "Source Sans Pro";
   font-size: 20px;
   font-weight: 600;
-  color: #333333;
+  color: $title;
 }
 .blog-date {
   font-family: "Source Sans Pro";
   font-size: 15px;
-  color: #999999;
+  color: $text;
 }
 .blog-layer {
   width: 380px;
   margin: 0;
-  background-color: #ffffff;  
+  background-color: $white-text;  
 }
 .blog-info {
   font-family: "Source Sans Pro";
   font-size: 15px;
-  color: #666666;
+  color: $var-grey;
 }
 .blog-read-more {
   font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: 600;
-  color: #706259;
+  color: $shade-brown;
 }
 .blog-image {
   width: 1900px;
@@ -477,7 +479,7 @@
   font-family: "Source Sans Pro";
   font-size: 50px;
   letter-spacing: 5px;
-  color: #ffffff;
+  color: $white-text;
   text-transform: uppercase;
 }
 .blogs-images{
@@ -491,7 +493,7 @@
   font-size: 15px;
   letter-spacing: 1.5px;
   text-align: center;
-  color: #ffffff;
+  color: $white-text;
   text-transform: uppercase;
   margin: auto;
 }
@@ -519,23 +521,23 @@
   line-height: 1;
   letter-spacing: 1.3px;
   text-align: center;
-  color: #333333;
+  color: $title;
 }
 .business-info {
   font-family: "Source Sans Pro";
   font-size: 18px;
   line-height: 1.39;
-  color: #666666;
+  color: $var-grey;
 }
 .border {
 width: 390px;
-border: solid 1px #e6e6e6;
+border: solid 1px $border;
 background-color: #f0f0f0;
 }
 .form-button {
   width: 155px;
   height: 40px;
-  background-color: #ac907f;
+  background-color: $light-brown;
   border-radius: 0;
   align-self: left;
   justify-self: left;
@@ -545,7 +547,7 @@ background-color: #f0f0f0;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: #ffffff;
+    color: $white-text;
   }
 }
 // shop page
@@ -578,14 +580,14 @@ background-color: #f0f0f0;
       position: absolute;
       width: 55px;
       height: 55px;
-      background-color: #ac907f;
+      background-color: $light-brown;
       font-family: "Source Sans Pro";
       font-size: 15px;
       margin: auto;
       line-height: 3.2;
       text-align: center;
       text-transform: uppercase;
-      color: #fefefe;
+      color: $white-2;
       border-radius: 50%;
       top: 1rem;
       left: 1rem;
@@ -596,19 +598,19 @@ background-color: #f0f0f0;
   height: 12.5%;
   text-align: center;
   color: white;
-  background-color: #ac907f;
+  background-color: $light-brown;
 }
 .cart-button,
 .remove-cart {
   width: 180px;
   text-transform: uppercase;
-  background-color: #ac907f;
+  background-color: $light-brown;
   border-radius: 0;
   font-family: "Source Sans Pro";
   font-size: 15px;
   letter-spacing: 1.5px;
   text-align: center;
-  color: #ffffff;
+  color: $white-text;
 
     .fas,
     .fa {
@@ -620,10 +622,10 @@ background-color: #f0f0f0;
   font-size: 18px;
   font-weight: 600;
   line-height: 2.67;
-  color: #999999;
+  color: $text;
 }
 .shop-icon {
-  color: #666666;
+  color: $var-grey;
 }
 .product-info {
   text-align: left;

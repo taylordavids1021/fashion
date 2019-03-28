@@ -12,16 +12,16 @@ li {
     font-size: 12px;
     font-weight: 300;
     text-align: center;
-    color: #999999;
+    color: $text;
     word-spacing: 0.1rem;
 }
 a {
-    font-family: Dosis;
+    font-family: "Dosis";
     text-decoration: none;
     font-size: 15px;
     letter-spacing: 0.8px;
     text-align: left;
-    color: #ffffff;
+    color: $white-text;
 }
 // unodered list
 ul {
@@ -32,7 +32,7 @@ section {
     width: 118.75rem;
     height: 34.5rem;
     opacity: 0.9;
-    background-color: #666666;
+    background-color: $var-grey;
     text-align: center;
     background-attachment: fixed;
     background-image:linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/blog.jpg);
@@ -44,7 +44,7 @@ section {
             font-size: 15px;
             line-height: 1.6;
             text-align: center;
-            color: #ffffff;
+            color: $white-text;
         }
 }
 // footer
@@ -54,14 +54,14 @@ footer {
     padding-top: 2rem;
     line-height: 1.71;
     text-align: center;
-    color: #666666;
+    color: $var-grey;
 }
 // underlined under headings
 hr {
     width: 5rem;
     height: 0.125rem;
     margin-bottom: 2rem;
-    background-color: #a88d7b;
+    background-color: $border-color;
 }
 // heading style 4
 h4 {

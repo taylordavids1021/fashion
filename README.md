@@ -81,6 +81,8 @@ Technologies and Tools Used:
 - Image enlargement on look book
 - remove from cart from shop page
 
+2019-03-28
+- Variables
 
 ## Contributors
 

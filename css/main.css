@@ -36,7 +36,7 @@ li {
   word-spacing: 0.1rem; }
 
 a {
-  font-family: Dosis;
+  font-family: "Dosis";
   text-decoration: none;
   font-size: 15px;
   letter-spacing: 0.8px;
@@ -120,7 +120,7 @@ h4 {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: 0.5rem;
-  color: #fffefe;
+  color: #2d2827;
   text-transform: uppercase; }
 
 .title-kids-fashion {
@@ -303,6 +303,9 @@ h4 {
   width: 80px;
   height: 80px;
   object-fit: cover; }
+
+.image-insta:hover {
+  transform: scale(1.5); }
 
 .footer {
   width: 1900px;

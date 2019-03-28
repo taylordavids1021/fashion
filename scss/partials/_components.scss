@@ -8,7 +8,7 @@ button {
     height: 40px;
     border-radius: 20px;
     border: 0;
-    background-color: #a88d7b;
+    background-color: $border-color;
 }
 button:hover {
 width: 200px;
@@ -18,8 +18,8 @@ height: 42px;
 textarea {
     width: 1210px;
     height: 150px;
-    border: solid 1px #e6e6e6;
-    background-color: #ffffff;
+    border: solid 1px $border;
+    background-color: $white-text;
     grid-column: 2 span;
 }
 // iframe
