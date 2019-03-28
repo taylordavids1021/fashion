@@ -863,6 +863,22 @@ h4 {
     font-size: 15px;
     color: #666666; }
 
+.cart-total {
+  display: grid;
+  font-family: "Source Sans Pro";
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  width: 71.375rem;
+  text-align: center; }
+  .cart-total h1 {
+    text-align: center; }
+  .cart-total ul li {
+    padding: 0 10rem; }
+  .cart-total .cart-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto; }
+
 form {
   display: grid;
   grid-template-columns: repeat(2, auto);

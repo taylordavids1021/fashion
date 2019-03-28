@@ -83,6 +83,7 @@ Technologies and Tools Used:
 
 2019-03-28
 - Variables
+- adding arrows and exit to image on look book
 
 ## Contributors
 
