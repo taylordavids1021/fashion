@@ -85,6 +85,10 @@ Technologies and Tools Used:
 - Variables
 - adding arrows and exit to image on look book
 
+2019-03-29
+- Responsive homepage
+- check list
+
 ## Contributors
 
 Designed by Taylor Davids - © 2019

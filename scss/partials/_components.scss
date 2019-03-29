@@ -4,21 +4,21 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro');
 // button style
 button {
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
+    width: 9.375rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
     border: 0;
     background-color: $border-color;
 }
 button:hover {
-width: 200px;
-height: 42px;
+width: 12.5rem;
+height: 2.625rem;
 }
 // form text area
 textarea {
-    width: 1210px;
-    height: 150px;
-    border: solid 1px $border;
+    width: 75.625rem;
+    height: 9.375rem;
+    border: solid 0.0625rem $border;
     background-color: $white-text;
     grid-column: 2 span;
 }

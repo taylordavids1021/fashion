@@ -15,7 +15,7 @@
 .banner-grid
 .fas, 
 .fa {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
   color: $text;
 }
@@ -27,19 +27,19 @@
 .fas,
 .fa {
   font-family: "Dosis";
-  font-size: 15px;
-  letter-spacing: 0.8px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.05rem;
   text-align: center;
   color: $white-text;
   text-transform: uppercase;
 }
 .free-shipping-for-standard-order-over-r100{
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }
 // company name
 .company {
   font-family: "Dosis";
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
   letter-spacing: 0.5rem;
   color: $banner-color;
@@ -50,8 +50,8 @@
 }
 // animation arrow
 .arrow {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   margin: auto;
   position: absolute;
   left: 47%;
@@ -72,7 +72,7 @@
 // explore kids fashion style
 .explore-kids-fashion{
   font-family: "Dosis";
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 0.96;
   text-align: center;
   text-transform: uppercase;
@@ -80,21 +80,21 @@
 }
 .fashion-text {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   margin: 0.5rem 45rem;
   color: $border;
 }
 // featured product images 
 .image-product-holder {
-  width: 370px;
-  height: 360px;
+  width: 23.125rem;
+  height: 22.5rem;
   object-fit: cover;
 }
 // featured products
 .featured-product {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   padding-top: 1rem;
   text-align: center;
@@ -102,13 +102,13 @@
   text-transform: uppercase;
 }
 .featured-product-background{
-  width: 1900px;
-  height: 704px;
+  width: 118.75rem;
+  height: 44rem;
   background-color: #f5f5f5;
 }
 .name-of-product {
   font-family: "Source Sans Pro";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: $title;
   text-align: center;
@@ -116,20 +116,20 @@
 .product-price {
   text-align: center;
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: $text;
 }
 // new collection images
 .new-collection-image {
-  width: 570px;
-  height: 373px;
+  width: 35.625rem;
+  height: 23.3125rem;
   text-align: center;
   object-fit: cover;
 }
 .new-collection {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   padding-top: 2rem;
   text-align: center;
@@ -139,7 +139,7 @@
 // good stuff
 .good-stuff {
   font-family: "Dosis";
-  font-size: 48px;
+  font-size: 3rem;
   // line-height: 0.5;
   text-align: center;
   color: $white-text;
@@ -147,19 +147,19 @@
   text-transform: uppercase;
 }
 .button-text{
-  width: 150px;
-  height: 40px;
+  width: 9.375rem;
+  height: 2.5rem;
   background-color: $border-color;
   border-radius: 0;
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   color: $white-text;
 }
 // blog //
 .blog-text {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   padding-top: 2rem;
   text-align: center;
@@ -167,33 +167,33 @@
   text-transform: uppercase;
 }
 .blog-images {
-  width: 585px;
-  height: 405px;
+  width: 36.5625rem;
+  height: 25.3125rem;
   background-color: $var-grey;
 }// every day living
 .every-day-living {
   font-family: "Source Sans Pro";
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 600;
   color: $title;
 }
 //  date styling
 .every-day-living-date {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: $text;
 }
 //  paragraph
 .every-day-living-p {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: $var-grey;
 }
 // read more
 .read-more {
   font-family: "Source Sans Pro";
   font-size: 15px;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.0938rem;
   color: $border-color;
 }
 // footer
@@ -220,7 +220,7 @@
 }
 .details p{
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: $text;
   text-align: left;
   line-height: 1.6;  
@@ -236,7 +236,7 @@
 } 
 .details-text {
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   color: #e5e5e5;
   text-align: left;
@@ -244,22 +244,20 @@
 }
 // details 
 .image-insta {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     object-fit: cover;
 }
 .image-insta:hover{
   transform: scale(1.5);
 }
 .footer {
-  width: 1900px;
-  height: 85px;
+  width: 118.75rem;
+  height: 5.3125rem;
   background-color: #d7d7d7;
 }
 // about page
 .about-grid {
-  // width: 1900px;
-  // height: 53px;
   background-color: #eeeeee;
   text-transform: uppercase;
 
@@ -269,9 +267,9 @@
 }
 .company-about {
   font-family: "Dosis";
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.0938rem;
   color: #000000;
 }
 .nav-about {
@@ -281,8 +279,8 @@
 }
 
 .home-about-us {
-  width: 1900px;
-  height: 445px;
+  width: 118.75rem;
+  height: 27.8125rem;
   background:linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/18368.jpg);
   background-size: cover;
   text-align: center;
@@ -313,82 +311,82 @@
 }
 // who are we
 .background-who-are-we {
-  width: 1900px;
-  height: 548px;
+  width: 118.75rem;
+  height: 34.25rem;
   background-color: $white-text;
 }
 .who-are-we-image{
   width: 600px;
-  height: 490px;
+  height: 30.625rem;
   object-fit: cover;
 }
 .who-are-we-text p {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: left;
   color: $var-grey;
 }
 .who-are-we-text h2 {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   text-align: center;
   color: $title;
   margin: auto;
 }
 .meet-our-team-background {
-  width: 1920px;
-  height: 721px;
+  width: 120rem;
+  height: 45.0625rem;
   background-color: $white-text;
 }
 .meet-our-team {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
   color: $title;
 }
 .meet-our-team-image {
-  width: 270px;
-  height: 305px;
+  width: 16.875rem;
+  height: 19.0625rem;
   object-fit: cover;
 }
 .member {
   font-family: "Source Sans Pro";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   line-height: 2.4;
   color: $title;
   text-align: center;
 }
 .position {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   line-height: 1.47;
   color: $text;
 }
 .social-m-icons{
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   color: $icons;
   letter-spacing: 1rem;
   line-height: 1.47;
 }
 .what-we-do-image{
-  width: 600px;
-  height: 490px;
+  width: 37.5rem;
+  height: 30.625rem;
   object-fit: cover;
 }
 .what-we-do {
-  width: 1900px;
-  height: 590px;
+  width: 118.75rem;
+  height: 36.875rem;
   background-color: $white-text;
 
     p{
       font-family: "Source Sans Pro";
-      font-size: 15px;
+      font-size: 0.9375rem;
       line-height: 1.67;
       text-align: left;
       color: $var-grey;
@@ -396,7 +394,7 @@
 }
 .what-we-do-title {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
@@ -405,15 +403,15 @@
 // typography styles
 .typography-image {
   // background-image: url();
-  width: 1920px;
-  height: 335px;
+  width: 120rem;
+  height: 20.9375rem;
   background-color: $var-grey;
 
     h1 {
       font-family: "Source Sans Pro";
-      font-size: 48px;
+      font-size: 3rem;
       line-height: 1.25;
-      letter-spacing: 4.8px;
+      letter-spacing: 0.3rem;
       text-align: center;
       color: $white-text;
       text-transform: uppercase;
@@ -422,10 +420,10 @@
 .title,
 #title {
   font-family: "Source Sans Pro";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.5;
-  letter-spacing: 2.4px;
+  letter-spacing: 0.15rem;
   color: $title;
   text-transform: uppercase;
 }
@@ -435,40 +433,40 @@
 
 // blog page
 .blog-background {
-  width: 1900px;
-  height: 928px;
+  width: 118.75rem;
+  height: 58rem;
   background-color: $white-text;
 }
 .blog-product {
   font-family: "Source Sans Pro";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: $title;
 }
 .blog-date {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: $text;
 }
 .blog-layer {
-  width: 380px;
+  width: 23.75rem;
   margin: 0;
   background-color: $white-text;  
 }
 .blog-info {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: $var-grey;
 }
 .blog-read-more {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: $shade-brown;
 }
 .blog-image {
-  width: 1900px;
-  height: 445px;
+  width: 118.75rem;
+  height: 27.8125rem;
   background: linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/insta7.jpg);
   text-align: center;  
 }
@@ -477,21 +475,21 @@
 }
 .blog-title {
   font-family: "Source Sans Pro";
-  font-size: 50px;
-  letter-spacing: 5px;
+  font-size: 3.125rem;
+  letter-spacing: 0.3125rem;
   color: $white-text;
   text-transform: uppercase;
 }
 .blogs-images{
-  width: 370px;
-  height: 225px;
+  width: 23.125rem;
+  height: 14.0625rem;
   object-fit: cover;
 }
 // look book style
 .look-book {
   font-family: "Source Sans Pro";
-  font-size: 15px;
-  letter-spacing: 1.5px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0938rem;
   text-align: center;
   color: $white-text;
   text-transform: uppercase;
@@ -516,27 +514,27 @@
 // contact 
 .business-details {
   font-family: "Source Sans Pro";
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: 1.3px;
+  letter-spacing: 0.0813rem;
   text-align: center;
   color: $title;
 }
 .business-info {
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.39;
   color: $var-grey;
 }
 .border {
-width: 390px;
-border: solid 1px $border;
+width: 24.375rem;
+border: solid 0.0625rem $border;
 background-color: #f0f0f0;
 }
 .form-button {
-  width: 155px;
-  height: 40px;
+  width: 9.6875rem;
+  height: 2.5rem;
   background-color: $light-brown;
   border-radius: 0;
   align-self: left;
@@ -544,28 +542,28 @@ background-color: #f0f0f0;
 
   p {
     font-family: "Source Sans Pro";
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.0938rem;
     color: $white-text;
   }
 }
 // shop page
 .shop-background-color {
-  width: 1900px;
+  width: 118.75rem;
   background-color: #f5f5f5;
 }
 .shop-image {
-  width: 1900px;
-  height: 445px;
+  width: 118.75rem;
+  height: 27.8125rem;
   background: linear-gradient(rgba(128, 128, 128, 0.76),rgba(128, 128, 128, 0.363)), url(../images/shop-main.jpg);
   text-align: center;  
   object-fit: cover;
   margin: auto;
 }
 .shop-images {
-  width: 300px;
-  height: 300px;
+  width: 18.75rem;
+  height: 18.75rem;
   margin: auto;
   position: relative;
 
@@ -578,11 +576,11 @@ background-color: #f0f0f0;
 
     .product-sale {
       position: absolute;
-      width: 55px;
-      height: 55px;
+      width: 3.4375rem;
+      height: 3.4375rem;
       background-color: $light-brown;
       font-family: "Source Sans Pro";
-      font-size: 15px;
+      font-size: 0.9375rem;
       margin: auto;
       line-height: 3.2;
       text-align: center;
@@ -602,13 +600,13 @@ background-color: #f0f0f0;
 }
 .cart-button,
 .remove-cart {
-  width: 180px;
+  width: 11.25rem;
   text-transform: uppercase;
   background-color: $light-brown;
   border-radius: 0;
   font-family: "Source Sans Pro";
-  font-size: 15px;
-  letter-spacing: 1.5px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0938rem;
   text-align: center;
   color: $white-text;
 
@@ -619,7 +617,7 @@ background-color: #f0f0f0;
 }
 .cart-price {
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 2.67;
   color: $text;

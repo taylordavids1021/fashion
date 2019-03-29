@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro");
 button {
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
+  width: 9.375rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
   border: 0;
   background-color: #a88d7b; }
 
 button:hover {
-  width: 200px;
-  height: 42px; }
+  width: 12.5rem;
+  height: 2.625rem; }
 
 textarea {
-  width: 1210px;
-  height: 150px;
-  border: solid 1px #e6e6e6;
+  width: 75.625rem;
+  height: 9.375rem;
+  border: solid 0.0625rem #e6e6e6;
   background-color: #ffffff;
   grid-column: 2 span; }
 
@@ -29,7 +29,7 @@ li {
   display: inline;
   text-decoration: none;
   font-family: "Source Sans Pro";
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 300;
   text-align: center;
   color: #999999;
@@ -38,8 +38,8 @@ li {
 a {
   font-family: "Dosis";
   text-decoration: none;
-  font-size: 15px;
-  letter-spacing: 0.8px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.05rem;
   text-align: left;
   color: #ffffff; }
 
@@ -57,14 +57,14 @@ section {
   background-size: cover; }
   section p {
     font-family: "Source Sans Pro";
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 1.6;
     text-align: center;
     color: #ffffff; }
 
 footer {
   font-family: "Source Sans Pro";
-  font-size: 14px;
+  font-size: 0.875rem;
   padding-top: 2rem;
   line-height: 1.71;
   text-align: center;
@@ -94,7 +94,7 @@ h4 {
 .banner-grid
 .fas,
 .fa {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
   color: #999999; }
 
@@ -106,18 +106,18 @@ h4 {
 .fas,
 .fa {
   font-family: "Dosis";
-  font-size: 15px;
-  letter-spacing: 0.8px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.05rem;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase; }
 
 .free-shipping-for-standard-order-over-r100 {
-  letter-spacing: 2px; }
+  letter-spacing: 0.125rem; }
 
 .company {
   font-family: "Dosis";
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
   letter-spacing: 0.5rem;
   color: #2d2827;
@@ -127,8 +127,8 @@ h4 {
   margin-top: 15rem; }
 
 .arrow {
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
   margin: auto;
   position: absolute;
   left: 47%;
@@ -143,7 +143,7 @@ h4 {
     margin-top: 7rem; } }
 .explore-kids-fashion {
   font-family: "Dosis";
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 0.96;
   text-align: center;
   text-transform: uppercase;
@@ -151,19 +151,19 @@ h4 {
 
 .fashion-text {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   margin: 0.5rem 45rem;
   color: #e6e6e6; }
 
 .image-product-holder {
-  width: 370px;
-  height: 360px;
+  width: 23.125rem;
+  height: 22.5rem;
   object-fit: cover; }
 
 .featured-product {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   padding-top: 1rem;
   text-align: center;
@@ -171,13 +171,13 @@ h4 {
   text-transform: uppercase; }
 
 .featured-product-background {
-  width: 1900px;
-  height: 704px;
+  width: 118.75rem;
+  height: 44rem;
   background-color: #f5f5f5; }
 
 .name-of-product {
   font-family: "Source Sans Pro";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #333333;
   text-align: center; }
@@ -185,19 +185,19 @@ h4 {
 .product-price {
   text-align: center;
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: #999999; }
 
 .new-collection-image {
-  width: 570px;
-  height: 373px;
+  width: 35.625rem;
+  height: 23.3125rem;
   text-align: center;
   object-fit: cover; }
 
 .new-collection {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   padding-top: 2rem;
   text-align: center;
@@ -206,25 +206,25 @@ h4 {
 
 .good-stuff {
   font-family: "Dosis";
-  font-size: 48px;
+  font-size: 3rem;
   text-align: center;
   color: #ffffff;
   margin: auto;
   text-transform: uppercase; }
 
 .button-text {
-  width: 150px;
-  height: 40px;
+  width: 9.375rem;
+  height: 2.5rem;
   background-color: #a88d7b;
   border-radius: 0;
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   color: #ffffff; }
 
 .blog-text {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   padding-top: 2rem;
   text-align: center;
@@ -232,30 +232,30 @@ h4 {
   text-transform: uppercase; }
 
 .blog-images {
-  width: 585px;
-  height: 405px;
+  width: 36.5625rem;
+  height: 25.3125rem;
   background-color: #666666; }
 
 .every-day-living {
   font-family: "Source Sans Pro";
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 600;
   color: #333333; }
 
 .every-day-living-date {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #999999; }
 
 .every-day-living-p {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #666666; }
 
 .read-more {
   font-family: "Source Sans Pro";
   font-size: 15px;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.0938rem;
   color: #a88d7b; }
 
 .details {
@@ -279,7 +279,7 @@ h4 {
 
 .details p {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #999999;
   text-align: left;
   line-height: 1.6; }
@@ -293,23 +293,23 @@ h4 {
 
 .details-text {
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   color: #e5e5e5;
   text-align: left;
   text-transform: uppercase; }
 
 .image-insta {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   object-fit: cover; }
 
 .image-insta:hover {
   transform: scale(1.5); }
 
 .footer {
-  width: 1900px;
-  height: 85px;
+  width: 118.75rem;
+  height: 5.3125rem;
   background-color: #d7d7d7; }
 
 .about-grid {
@@ -320,9 +320,9 @@ h4 {
 
 .company-about {
   font-family: "Dosis";
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 600;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.0938rem;
   color: #000000; }
 
 .nav-about {
@@ -331,8 +331,8 @@ h4 {
   margin: auto; }
 
 .home-about-us {
-  width: 1900px;
-  height: 445px;
+  width: 118.75rem;
+  height: 27.8125rem;
   background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/18368.jpg);
   background-size: cover;
   text-align: center;
@@ -362,102 +362,102 @@ h4 {
   color: #ffffff; }
 
 .background-who-are-we {
-  width: 1900px;
-  height: 548px;
+  width: 118.75rem;
+  height: 34.25rem;
   background-color: #ffffff; }
 
 .who-are-we-image {
   width: 600px;
-  height: 490px;
+  height: 30.625rem;
   object-fit: cover; }
 
 .who-are-we-text p {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: left;
   color: #666666; }
 
 .who-are-we-text h2 {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   text-align: center;
   color: #333333;
   margin: auto; }
 
 .meet-our-team-background {
-  width: 1920px;
-  height: 721px;
+  width: 120rem;
+  height: 45.0625rem;
   background-color: #ffffff; }
 
 .meet-our-team {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
   color: #333333; }
 
 .meet-our-team-image {
-  width: 270px;
-  height: 305px;
+  width: 16.875rem;
+  height: 19.0625rem;
   object-fit: cover; }
 
 .member {
   font-family: "Source Sans Pro";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   line-height: 2.4;
   color: #333333;
   text-align: center; }
 
 .position {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   line-height: 1.47;
   color: #999999; }
 
 .social-m-icons {
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   color: #555555;
   letter-spacing: 1rem;
   line-height: 1.47; }
 
 .what-we-do-image {
-  width: 600px;
-  height: 490px;
+  width: 37.5rem;
+  height: 30.625rem;
   object-fit: cover; }
 
 .what-we-do {
-  width: 1900px;
-  height: 590px;
+  width: 118.75rem;
+  height: 36.875rem;
   background-color: #ffffff; }
   .what-we-do p {
     font-family: "Source Sans Pro";
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 1.67;
     text-align: left;
     color: #666666; }
 
 .what-we-do-title {
   font-family: "Source Sans Pro";
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: auto;
   text-align: center;
   text-transform: uppercase;
   color: #333333; }
 
 .typography-image {
-  width: 1920px;
-  height: 335px;
+  width: 120rem;
+  height: 20.9375rem;
   background-color: #666666; }
   .typography-image h1 {
     font-family: "Source Sans Pro";
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 1.25;
-    letter-spacing: 4.8px;
+    letter-spacing: 0.3rem;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase; }
@@ -465,10 +465,10 @@ h4 {
 .title,
 #title {
   font-family: "Source Sans Pro";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.5;
-  letter-spacing: 2.4px;
+  letter-spacing: 0.15rem;
   color: #333333;
   text-transform: uppercase; }
 
@@ -476,40 +476,40 @@ h4 {
   width: 1900px; }
 
 .blog-background {
-  width: 1900px;
-  height: 928px;
+  width: 118.75rem;
+  height: 58rem;
   background-color: #ffffff; }
 
 .blog-product {
   font-family: "Source Sans Pro";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #333333; }
 
 .blog-date {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #999999; }
 
 .blog-layer {
-  width: 380px;
+  width: 23.75rem;
   margin: 0;
   background-color: #ffffff; }
 
 .blog-info {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #666666; }
 
 .blog-read-more {
   font-family: "Source Sans Pro";
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 600;
   color: #706259; }
 
 .blog-image {
-  width: 1900px;
-  height: 445px;
+  width: 118.75rem;
+  height: 27.8125rem;
   background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/insta7.jpg);
   text-align: center; }
 
@@ -518,20 +518,20 @@ h4 {
 
 .blog-title {
   font-family: "Source Sans Pro";
-  font-size: 50px;
-  letter-spacing: 5px;
+  font-size: 3.125rem;
+  letter-spacing: 0.3125rem;
   color: #ffffff;
   text-transform: uppercase; }
 
 .blogs-images {
-  width: 370px;
-  height: 225px;
+  width: 23.125rem;
+  height: 14.0625rem;
   object-fit: cover; }
 
 .look-book {
   font-family: "Source Sans Pro";
-  font-size: 15px;
-  letter-spacing: 1.5px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0938rem;
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
@@ -554,53 +554,53 @@ h4 {
 
 .business-details {
   font-family: "Source Sans Pro";
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: 1.3px;
+  letter-spacing: 0.0813rem;
   text-align: center;
   color: #333333; }
 
 .business-info {
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.39;
   color: #666666; }
 
 .border {
-  width: 390px;
-  border: solid 1px #e6e6e6;
+  width: 24.375rem;
+  border: solid 0.0625rem #e6e6e6;
   background-color: #f0f0f0; }
 
 .form-button {
-  width: 155px;
-  height: 40px;
+  width: 9.6875rem;
+  height: 2.5rem;
   background-color: #ac907f;
   border-radius: 0;
   align-self: left;
   justify-self: left; }
   .form-button p {
     font-family: "Source Sans Pro";
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.0938rem;
     color: #ffffff; }
 
 .shop-background-color {
-  width: 1900px;
+  width: 118.75rem;
   background-color: #f5f5f5; }
 
 .shop-image {
-  width: 1900px;
-  height: 445px;
+  width: 118.75rem;
+  height: 27.8125rem;
   background: linear-gradient(rgba(128, 128, 128, 0.76), rgba(128, 128, 128, 0.363)), url(../images/shop-main.jpg);
   text-align: center;
   object-fit: cover;
   margin: auto; }
 
 .shop-images {
-  width: 300px;
-  height: 300px;
+  width: 18.75rem;
+  height: 18.75rem;
   margin: auto;
   position: relative; }
   .shop-images img {
@@ -609,11 +609,11 @@ h4 {
     object-fit: cover; }
   .shop-images .product-sale {
     position: absolute;
-    width: 55px;
-    height: 55px;
+    width: 3.4375rem;
+    height: 3.4375rem;
     background-color: #ac907f;
     font-family: "Source Sans Pro";
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin: auto;
     line-height: 3.2;
     text-align: center;
@@ -632,13 +632,13 @@ h4 {
 
 .cart-button,
 .remove-cart {
-  width: 180px;
+  width: 11.25rem;
   text-transform: uppercase;
   background-color: #ac907f;
   border-radius: 0;
   font-family: "Source Sans Pro";
-  font-size: 15px;
-  letter-spacing: 1.5px;
+  font-size: 0.9375rem;
+  letter-spacing: 0.0938rem;
   text-align: center;
   color: #ffffff; }
   .cart-button .fas,
@@ -649,7 +649,7 @@ h4 {
 
 .cart-price {
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 2.67;
   color: #999999; }
@@ -684,9 +684,9 @@ h4 {
     color: #666666; }
   .nav-grid-about a {
     font-family: "Dosis";
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.05rem;
     color: #666666;
     text-align: center;
     margin: auto;
@@ -713,7 +713,7 @@ h4 {
 .meet-our-team-background {
   display: grid;
   width: 71.375rem;
-  height: 505px;
+  height: 31.5625rem;
   margin: auto;
   grid-template-columns: repeat(4, auto); }
 
@@ -744,9 +744,9 @@ h4 {
   margin: auto; }
   .collection-image-grid p {
     font-family: "Source Sans Pro";
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 1.92;
-    letter-spacing: 2.5px;
+    letter-spacing: 0.1563rem;
     text-align: center;
     color: #a88d7b;
     text-transform: uppercase; }
@@ -754,7 +754,7 @@ h4 {
 .goodstuff-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 1900px;
+  width: 118.75rem;
   align-self: center;
   justify-self: center;
   opacity: 0.9; }
@@ -821,11 +821,11 @@ h4 {
   align-items: center;
   justify-items: center; }
   .contact-grid .fa-clock {
-    width: 33px;
-    height: 33px;
-    font-size: 36px; }
+    width: 2.0625rem;
+    height: 2.0625rem;
+    font-size: 2.25rem; }
   .contact-grid .fa-map-marker-alt {
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 0.58; }
   .contact-grid .fa-phone {
     transform: rotate(90deg); }
@@ -836,10 +836,10 @@ h4 {
     padding: 0.5rem; }
 
 .business-stats {
-  width: 390px;
-  height: 200px;
+  width: 24.375rem;
+  height: 12.5rem;
   padding: 1rem;
-  border: solid 1px #e6e6e6;
+  border: solid 0.0625rem #e6e6e6;
   background-color: #f0f0f0; }
   .business-stats #email {
     padding: 1rem 0; }
@@ -854,7 +854,7 @@ h4 {
   grid-template-columns: repeat(2, auto); }
   .cart-item h1 {
     font-family: "Source Sans Pro";
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 600;
     text-align: left;
     color: #333333; }
@@ -890,68 +890,310 @@ form {
   justify-items: center; }
 
 input {
-  width: 590px;
-  height: 50px;
+  width: 36.875rem;
+  height: 3.125rem;
   margin: 0;
-  border: solid 1px #e6e6e6;
+  border: solid 0.0625rem #e6e6e6;
   background-color: #ffffff; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 515px) and (-webkit-min-device-pixel-ratio: 2) {
   .banner-grid,
   .about-grid {
+    margin: 0;
+    grid-template-columns: repeat(3, auto);
+    width: 100%; }
+
+  .banner-grid {
+    width: 100%;
+    padding: 0; }
+
+  .banner-image {
+    width: 100%; }
+
+  .nav-grid {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin: auto;
-    grid-template-columns: repeat(3, auto); }
+    padding: 0; }
+
+  .title-kids-fashion {
+    margin-top: 4rem; }
+
+  .arrow {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: auto;
+    position: absolute;
+    left: 35%;
+    animation: move 2s ease infinite; }
+
+  .image-product-container {
+    grid-template-columns: 1fr;
+    width: 100%; }
+    .image-product-container p {
+      font-size: 0.625rem; }
+
+  .image-product-holder {
+    margin: auto;
+    width: 18.75rem;
+    height: 8.75rem; }
+
+  .featured-product-background {
+    width: auto; }
 
   .collection-image-grid {
     display: grid;
     grid-gap: 1rem;
-    align-items: center;
-    justify-items: center;
-    grid-template-columns: repeat(2, auto);
-    width: 0;
-    align-self: left;
-    justify-self: left;
-    margin: auto; }
-    .collection-image-grid p {
-      font-family: "Source Sans Pro";
-      font-size: 25px;
-      line-height: 1.92;
-      letter-spacing: 2.5px;
-      text-align: center;
-      color: #a88d7b;
-      text-transform: uppercase; }
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 100%; }
 
-  .image-product-container {
-    grid-template-columns: repeat(3, auto);
-    align-items: left;
-    justify-items: left;
-    width: 0; }
+  .new-collection-image {
+    width: 100%;
+    margin: 0; }
 
-  .blog-grid {
-    display: grid;
-    padding: 0 15rem;
-    margin: 1rem;
-    grid-template-columns: 1fr; }
+  .fashion-text {
+    margin: 0; }
 
-  .details-name {
-    font-family: "Dosis";
-    font-size: 45px;
+  .featured-product-background {
+    width: 100%;
+    height: 44rem;
+    background-color: #f5f5f5; }
+
+  .goodstuff-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
     text-align: center; }
 
-  .details .fas,
-  .details .fa {
-    margin-right: 0.7rem; }
+  section {
+    width: 100%; }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: auto;
+    padding: 0; }
+
+  .blog-images {
+    width: 100%; }
+
+  .details {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    width: 100%; }
+
+  .details-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%; }
+
+  .instagram-grid {
+    grid-gap: 0.5rem;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr); }
+
+  .image-insta {
+    width: 3.125rem;
+    height: 4.375rem;
+    object-fit: cover;
+    margin: auto; }
+
+  .footer {
+    width: 100%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .banner-grid,
+  .about-grid {
+    margin: 0;
+    grid-template-columns: repeat(3, auto);
+    width: 100%; }
+
+  .banner-grid {
+    width: 100%;
+    padding: 0; }
+
+  .banner-image {
+    width: 100%; }
+
+  .nav-grid {
+    grid-template-columns: repeat(3, auto); }
+
+  .title-kids-fashion {
+    margin-top: 14rem; }
+
+  .arrow {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    left: 43%;
+    animation: move 2s ease infinite; }
+
+  .image-product-container {
+    grid-template-columns: 1fr;
+    width: 100%; }
+    .image-product-container p {
+      font-size: 10px; }
+
+  .image-product-holder {
+    grid-area: image;
+    margin: auto;
+    width: 21.875rem;
+    height: 8.125rem; }
+
+  .featured-product-background {
+    width: auto; }
+
+  .collection-image-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 100%; }
+
+  .new-collection-image {
+    width: 100%;
+    margin: 0; }
+
+  .fashion-text {
+    margin: 0; }
+
+  .featured-product-background {
+    width: 100%;
+    height: 44rem;
+    background-color: #f5f5f5; }
+
+  .goodstuff-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+    text-align: center; }
+
+  section {
+    width: 100%; }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: auto;
+    padding: 0; }
+
+  .blog-images {
+    width: 100%; }
 
   .details {
     text-align: left;
-    grid-template-columns: repeat(2, 750px);
-    padding: 3rem;
-    align-items: left;
-    justify-items: left; }
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding: 0;
+    width: 100%; }
 
-  footer {
-    text-align: left;
-    padding: 2rem; } }
+  .details-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    text-align: center; }
+
+  .instagram-grid {
+    grid-gap: 0.5rem;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr); }
+
+  .image-insta {
+    width: 6.25rem;
+    height: 5rem;
+    object-fit: cover;
+    margin: auto;
+    padding: 1rem; }
+
+  .footer {
+    width: 100%; } }
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
+  .banner-grid,
+  .about-grid {
+    margin: 0;
+    grid-template-columns: repeat(3, auto);
+    width: 100%; }
+
+  .banner-grid {
+    width: 100%;
+    padding: 0; }
+
+  .banner-image {
+    width: 100%; }
+
+  .nav-grid {
+    grid-template-columns: repeat(3, auto); }
+
+  .title-kids-fashion {
+    margin-top: 14rem; }
+
+  .arrow {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: auto;
+    position: absolute;
+    left: 43%;
+    animation: move 2s ease infinite; }
+
+  .new-collection-image {
+    width: 100%;
+    margin: 0; }
+
+  .fashion-text {
+    margin: 0; }
+
+  .goodstuff-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+    text-align: center; }
+
+  section {
+    width: 100%; }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    justify-items: center; }
+
+  .blog-images {
+    width: 100%; }
+
+  .every-day-section {
+    padding: 2rem;
+    margin-right: 20rem;
+    width: 100%; }
+
+  .details {
+    grid-template-columns: repeat(2, auto);
+    padding: 0;
+    width: 100%; }
+
+  .details-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-items: center;
+    text-align: center; }
+
+  .instagram-grid {
+    grid-gap: 0.5rem;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr); }
+
+  .image-insta {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    margin: auto;
+    padding: 0.1rem; }
+
+  .footer {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

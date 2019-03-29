@@ -22,9 +22,9 @@
 
     a {
         font-family: "Dosis";
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 600;
-        letter-spacing: 0.8px;
+        letter-spacing: 0.05rem;
         color: $var-grey;
         text-align: center;
         margin: auto;
@@ -55,7 +55,7 @@
 .meet-our-team-background {
     display: grid;
     width: 71.375rem;
-    height: 505px;
+    height: 31.5625rem;
     margin: auto;
     grid-template-columns: repeat(4, auto);
 }
@@ -92,9 +92,9 @@
     // paragraph
         p {
             font-family: "Source Sans Pro";
-            font-size: 25px;
+            font-size: 1.5625rem;
             line-height: 1.92;
-            letter-spacing: 2.5px;
+            letter-spacing: 0.1563rem;
             text-align: center;
             color: $border-color;
             text-transform: uppercase;
@@ -104,7 +104,7 @@
 .goodstuff-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    width: 1900px;
+    width: 118.75rem;
     align-self: center;
     justify-self: center;
     opacity: 0.9;
@@ -186,12 +186,12 @@
     justify-items: center;
 
     .fa-clock {
-        width: 33px;
-        height: 33px;
-        font-size: 36px;
+        width: 2.0625rem;
+        height: 2.0625rem;
+        font-size: 2.25rem;
     }
     .fa-map-marker-alt {
-        font-size: 36px;
+        font-size: 2.25rem;
         line-height: 0.58;
     }
     .fa-phone {
@@ -208,10 +208,10 @@
 
 // business time, address
 .business-stats {
-    width: 390px;
-    height: 200px;
+    width: 24.375rem;
+    height: 12.5rem;
     padding: 1rem;
-    border: solid 1px $border;
+    border: solid 0.0625rem $border;
     background-color: #f0f0f0;
 
     #email {
@@ -230,7 +230,7 @@
 
         h1 {
             font-family: "Source Sans Pro";
-            font-size: 25px;
+            font-size: 1.5625rem;
             font-weight: 600;
             text-align: left;
             color: $title;
@@ -276,10 +276,10 @@ form {
 
 }
 input {
-    width: 590px;
-    height: 50px;
+    width: 36.875rem;
+    height: 3.125rem;
     margin: 0;
-    border: solid 1px $border;
+    border: solid 0.0625rem $border;
     background-color: $white-text;
 }
 // end of style
