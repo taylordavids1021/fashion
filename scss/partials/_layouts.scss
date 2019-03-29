@@ -219,7 +219,7 @@
       }
 }
 // shop layout
-.cart-item {
+.shop-grid {
     display: grid;
     grid-gap: 2rem;
     margin: auto;
@@ -240,27 +240,6 @@
             font-family: "Source Sans Pro";
             font-size: 15px;
             color: $var-grey;
-        }
-}
-.cart-total{
-    display: grid;
-    font-family: "Source Sans Pro";
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
-    width: 71.375rem;
-    text-align: center;
-
-        h1 {
-            text-align: center;
-        }
-        ul li {
-            padding: 0 10rem;
-        }
-
-        .cart-table {
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            margin: auto;
         }
 }
 // form style

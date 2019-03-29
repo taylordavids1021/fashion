@@ -88,6 +88,7 @@ Technologies and Tools Used:
 2019-03-29
 - Responsive homepage
 - check list
+- functionality add to cart-remove
 
 ## Contributors
 
