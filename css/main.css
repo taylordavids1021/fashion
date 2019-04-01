@@ -965,7 +965,8 @@ input {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding: 0;
+    margin: 0;
     width: 100%; }
 
   .details-text {
@@ -985,7 +986,75 @@ input {
     margin: auto; }
 
   .footer {
-    width: 100%; } }
+    width: 100%; }
+
+  .about-grid {
+    padding: 0;
+    font-size: 1rem; }
+
+  .nav-grid-about {
+    grid-template-columns: 1fr; }
+    .nav-grid-about a {
+      font-size: 0.5rem;
+      letter-spacing: 0.05rem; }
+
+  .home-about-us {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr; }
+
+  .background-who-are-we {
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 409px;
+    padding: 0;
+    margin: 0; }
+    .background-who-are-we h2 {
+      text-transform: uppercase; }
+
+  .who-are-we-image {
+    width: 100%;
+    height: 409px; }
+
+  .meet-our-team {
+    font-family: "Source Sans Pro";
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333; }
+
+  .meet-our-team-background {
+    width: 100%;
+    height: 409px;
+    background-color: #ffffff; }
+
+  .meet-our-team-background {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: auto; }
+
+  .what-we-do {
+    grid-gap: 0.5rem;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr; }
+
+  .what-we-do-image {
+    width: 100%;
+    height: 100%; }
+
+  .meet-our-team-image {
+    width: 100%;
+    height: 0;
+    object-fit: cover; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .banner-grid,
   .about-grid {

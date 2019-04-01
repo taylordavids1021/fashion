@@ -90,6 +90,9 @@ Technologies and Tools Used:
 - check list
 - functionality add to cart-remove
 
+2019-04-01
+- Responsive about page
+
 ## Contributors
 
 Designed by Taylor Davids - © 2019
